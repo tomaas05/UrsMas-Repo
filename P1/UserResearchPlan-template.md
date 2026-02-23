@@ -12,7 +12,7 @@ Documento plantilla, adaptar al contenido que sea necesario.
 
 
 
-Un **UX Research Plan** (Plan de Investigación de Usuario) es el documento estratégico que define los cimientos de cualquier estudio de usabilidad. Es la "hoja de ruta" que explica **qué** quieres aprender, **a quién** se lo vas a preguntar, **cómo** vas a obtener los datos y **cuándo** estarán listos los resultados.
+El proyecto en cuestión se basa en un análisis del ocio de una cafetería un tanto diferente. Además del mero hecho de tomar café, La Qarmita es más un punto de encuentro en el que difrutar de la lectura, conociendo nuevos autores junto sus futuros lanzamientos, debates enriquecedores con múltiples puntos de vista, con también la posibilidad de recomendar nuevas lecturas a conocidos y fomentar un entorno seguro y agradable de socializar. 
 
 Para que sea profesional, tu plan debe responder a estas secciones:
 #### 1. Antecedentes y Objetivos (The "Why")

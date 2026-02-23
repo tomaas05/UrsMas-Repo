@@ -64,7 +64,38 @@ Logotipo:
 ![Método UX](img/Competitive.png) 
 -----
 
->>> Describe el plan en tu User Research (cómo se plantea la selección de usuarios). Borra esta línea cuando lo tengas.  
+# Paso 1. UX User & Desk Research & Analisis
+
+## 1.a User Research Plan
+
+### Contexto y Definición del Proyecto
+El proyecto seleccionado para la investigación se centra en **La Qarmita**, un espacio que redefine el concepto tradicional de hostelería en Granada. Más allá del servicio de cafetería, analizamos este lugar como un **punto de encuentro cultural** donde convergen la gastronomía y la literatura.
+
+Nuestra investigación parte de la premisa de que La Qarmita no vende solo café, sino una experiencia completa: disfrutar de la lectura, descubrir nuevos autores y lanzamientos, participar en debates enriquecedores y, sobre todo, fomentar un **entorno seguro y agradable para socializar**. Abordaremos el proyecto desde la perspectiva de usuarios que buscan espacios de "ocio lento" (*slow leisure*), valorando la prescripción literaria y la calidad del ambiente tanto como el producto consumible.
+
+### Objetivos de la Investigación
+El objetivo principal es trasladar esa atmósfera de "refugio cultural" al entorno digital y optimizar la experiencia de usuario (UX) para conseguir:
+1.  **Visibilidad de la Agenda:** Que los usuarios descubran fácilmente los eventos (clubes de lectura, presentaciones) antes de ir.
+2.  **Conexión Comunidad-Local:** Facilitar que la web sirva para recomendar lecturas y conectar a personas con intereses similares, extendiendo la experiencia física al mundo online.
+3.  **Conversión Física:** Aumentar la afluencia al local mediante una información clara sobre ubicación, horarios y oferta gastronómica/literaria.
+
+### Estrategia y Metodología
+Para validar nuestras hipótesis y mejorar la interfaz, seguiremos una estrategia centrada en el usuario (UCD):
+* **Benchmarking:** Analizaremos cómo otras "librerías-cafetería" resuelven la dualidad de vender libros y servir cafés.
+* **User Personas & Journey Map:** Crearemos perfiles ficticios (ej: "El lector que busca silencio" vs "El grupo de debate") para entender sus motivaciones y frustraciones al interactuar con la marca digitalmente.
+* **Análisis Heurístico:** Evaluaremos la usabilidad actual para detectar barreras que impidan a los usuarios encontrar la información de los eventos o el menú.
+
+### Métricas y KPIs (Indicadores de Éxito)
+Definimos las siguientes métricas para medir el impacto de nuestra propuesta de diseño:
+
+| Tipo de Métrica | KPI (Indicador Clave) | Objetivo |
+| :--- | :--- | :--- |
+| **Cuantitativa** | **Tasa de interacción con la Agenda** | Medir cuántos usuarios consultan los eventos y hacen clic para "Saber más". |
+| **Cuantitativa** | **Búsqueda de ubicación/contacto** | Número de clics en el mapa o botón de llamada (intención de visita). |
+| **Cualitativa** | **Percepción del "Ambiente"** | Validar mediante test de usuarios si la web transmite la sensación de "entorno seguro y agradable" que define a la marca. |
+
+---
+[Enlace al documento PDF del User Research Plan](URL_DEL_PDF_AQUI)
 
 
 ### 1.b Competitive Analysis
