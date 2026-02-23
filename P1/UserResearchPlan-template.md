@@ -4,7 +4,6 @@
 
 Diseño de Interfaces de Usuario, entregable práctica 1. 
 
-Documento plantilla, adaptar al contenido que sea necesario. 
 
 <img src="https://img.uxcel.com/cdn-cgi/image/format=auto/practices/user-research-1599142817996/a-1696512677044-2x.jpg" alt="UX Reaearch plan" style="height:250px" />
 
@@ -13,6 +12,7 @@ Documento plantilla, adaptar al contenido que sea necesario.
 
 
 El proyecto en cuestión se basa en un análisis del ocio de una cafetería un tanto diferente. Además del mero hecho de tomar café, La Qarmita es más un punto de encuentro en el que difrutar de la lectura, conociendo nuevos autores junto sus futuros lanzamientos, debates enriquecedores con múltiples puntos de vista, con también la posibilidad de recomendar nuevas lecturas a conocidos y fomentar un entorno seguro y agradable de socializar. 
+
 
 Para que sea profesional, tu plan debe responder a estas secciones:
 #### 1. Antecedentes y Objetivos (The "Why")

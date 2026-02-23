@@ -71,7 +71,13 @@ Logotipo:
 ### Contexto y Definición del Proyecto
 El proyecto seleccionado para la investigación se centra en **La Qarmita**, un espacio que redefine el concepto tradicional de hostelería en Granada. Más allá del servicio de cafetería, analizamos este lugar como un **punto de encuentro cultural** donde convergen la gastronomía y la literatura.
 
-Nuestra investigación parte de la premisa de que La Qarmita no vende solo café, sino una experiencia completa: disfrutar de la lectura, descubrir nuevos autores y lanzamientos, participar en debates enriquecedores y, sobre todo, fomentar un **entorno seguro y agradable para socializar**. Abordaremos el proyecto desde la perspectiva de usuarios que buscan espacios de "ocio lento" (*slow leisure*), valorando la prescripción literaria y la calidad del ambiente tanto como el producto consumible.
+Nuestra investigación parte de la premisa de que La Qarmita no vende solo café, sino una experiencia completa: disfrutar de la lectura, descubrir nuevos autores y lanzamientos, participar en debates enriquecedores y, sobre todo, fomentar un **entorno seguro y agradable para socializar**. Abordaremos el proyecto desde la perspectiva de usuarios que buscan espacios de "ocio lento", valorando la prescripción literaria y la calidad del ambiente tanto como el producto consumible.
+
+### Nuestra experiencia en lugares similares
+
+Nos gustaría destacar que anteriormente no hemos tenido mucho contacto con el desarrollo de páginas web ni con el análisis de negocios en profundidad, por lo que junto con el desarrollo del trabajo iremos aprendiendo y adquiriendo estas competencias.
+
+Sin embargo, el tema de la lectura como ocio sí que nos pilla más de cerca, tanto por conocidos como en nuestras propias carnes. Creemos firmemente que la fusión del café como conector social y un tema apasionante como es la lectura puede hacer *match* con mucha gente. Desde nuestra perspectiva personal, estos establecimientos nos parecen lugares interesantes para conocer a otras personas con las mismas aficiones y compartir opiniones sobre lecturas actuales. Además, valoramos que gracias a sus eventos se facilita el descubrimiento de nuevos autores y géneros que quizás no leeríamos de forma autónoma.
 
 ### Objetivos de la Investigación
 El objetivo principal es trasladar esa atmósfera de "refugio cultural" al entorno digital y optimizar la experiencia de usuario (UX) para conseguir:
@@ -80,7 +86,7 @@ El objetivo principal es trasladar esa atmósfera de "refugio cultural" al entor
 3.  **Conversión Física:** Aumentar la afluencia al local mediante una información clara sobre ubicación, horarios y oferta gastronómica/literaria.
 
 ### Estrategia y Metodología
-Para validar nuestras hipótesis y mejorar la interfaz, seguiremos una estrategia centrada en el usuario (UCD):
+Para validar nuestras hipótesis y mejorar la interfaz, seguiremos una estrategia centrada en el usuario:
 * **Benchmarking:** Analizaremos cómo otras "librerías-cafetería" resuelven la dualidad de vender libros y servir cafés.
 * **User Personas & Journey Map:** Crearemos perfiles ficticios (ej: "El lector que busca silencio" vs "El grupo de debate") para entender sus motivaciones y frustraciones al interactuar con la marca digitalmente.
 * **Análisis Heurístico:** Evaluaremos la usabilidad actual para detectar barreras que impidan a los usuarios encontrar la información de los eventos o el menú.
@@ -94,8 +100,6 @@ Definimos las siguientes métricas para medir el impacto de nuestra propuesta de
 | **Cuantitativa** | **Búsqueda de ubicación/contacto** | Número de clics en el mapa o botón de llamada (intención de visita). |
 | **Cualitativa** | **Percepción del "Ambiente"** | Validar mediante test de usuarios si la web transmite la sensación de "entorno seguro y agradable" que define a la marca. |
 
----
-[Enlace al documento PDF del User Research Plan](URL_DEL_PDF_AQUI)
 
 
 ### 1.b Competitive Analysis
