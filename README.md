@@ -106,6 +106,10 @@ Definimos las siguientes métricas para medir el impacto de nuestra propuesta de
 ![Método UX](img/Competitive.png) 
 -----
 
+Primeramente, la primera impresión que nos da cada página es distinta, Café Fútbol y La Qarmita nos muestran el aspecto de la cafetería centrandose más en el apartado visual, mientras que la QproQuo ya pierde impacto/intereés mostrandonos directamente el catálogo de libros.
+
+Luego, como el objetivo principal es tomar algo, ya vemos que QproQuo y Café Fútbol ya flojean en la segunda impresión. La página de QproQuo nomuestra las opciones de consumición y Café Fútbol ya nos hace decidir entre cafeteŕia o restaurante y luego incrustan un pdf mal optimizado que además.
+
 La Qarmita: https://laqarmita.es/
 QProQuo: https://www.qproquo.com/es/index.php
 Café Fútbol: (https://cafefutbol.com/)
