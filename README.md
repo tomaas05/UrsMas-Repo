@@ -37,12 +37,12 @@ Logotipo:
 
 >>> Si diseña un logotipo para su producto en la práctica 3 pongalo aqui, a un tamaño adecuado. Si diseña un slogan añadalo aquí
 
-Miembros y nombre del equipo:
-Nombre: UrsMas
- * :bust_in_silhouette:  Tomás Serrano Borrego     :octocat:     
- * :bust_in_silhouette:  Úrsula Barato Berdugo     :octocat:
+### 🚀 UrsMas Team
 
->>> Los equipos son de 2 personas. Identifícaros con el nombre del Grupo y los enlaces a los perfiles de GitHub de cada integrante
+**Integrantes:**
+
+* **Tomás Serrano Borrego** — [Visitar Perfil :octocat:](https://github.com/tomaas05)
+* **Úrsula Barato Berdugo** — [Visitar Perfil :octocat:](https://github.com/UrsulaUGR05)
 
 ----- 
 
@@ -58,7 +58,6 @@ Nombre: UrsMas
 
 ## Paso 1. UX User & Desk Research & Analisis 
 
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
 
 
 ### 1.a User Reseach Plan
