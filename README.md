@@ -106,7 +106,9 @@ Definimos las siguientes métricas para medir el impacto de nuestra propuesta de
 ![Método UX](img/Competitive.png) 
 -----
 
->>> Describe brevemente características de las aplicaciones que tiene asignadas tu grupo. Decidete por una y explica por qué se ha seleccionado. Borra esta línea cuando lo tengas. 
+La Qarmita: https://laqarmita.es/
+QProQuo: https://www.qproquo.com/es/index.php
+Café Fútbol: (https://cafefutbol.com/)
 
 
 ### 1.c Personas
