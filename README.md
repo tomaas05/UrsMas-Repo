@@ -94,16 +94,23 @@ Para evaluar si estamos mejorando la experiencia y reduciendo la frustración de
 
 
 ### 1.b Competitive Analysis
-![Método UX](img/Competitive.png) 
------
 
-Primeramente, la primera impresión que nos da cada página es distinta, Café Fútbol y La Qarmita nos muestran el aspecto de la cafetería centrandose más en el apartado visual, mientras que la QproQuo ya pierde impacto/intereés mostrandonos directamente el catálogo de libros.
+Para el análisis competitivo hemos seleccionado dos sitios web estratégicos: uno que comparte el modelo de negocio híbrido (Café + Lectura) y otro que representa la competencia tradicional en nuestra ubicación (Granada).
 
-Luego, como el objetivo principal es tomar algo, ya vemos que QproQuo y Café Fútbol ya flojean en la segunda impresión. La página de QproQuo nomuestra las opciones de consumición y Café Fútbol ya nos hace decidir entre cafeteŕia o restaurante y luego incrustan un pdf mal optimizado que además.
+**Los Competidores:**
 
-La Qarmita: https://laqarmita.es/
-QProQuo: https://www.qproquo.com/es/index.php
-Café Fútbol: (https://cafefutbol.com/)
+* **Q Pro Quo:** Librería-Café universitaria situada cerca del campus de Málaga. Además de libros y café, organiza eventos y ofrece servicios de papelería y regalos (llaveros, botellas temáticas...).
+    * *Web:* [www.qproquo.com](https://www.qproquo.com/es/index.php)
+* **Café Fútbol:** Cafetería, heladería y churrería tradicional con más de 100 años de historia en el centro de Granada. Cuenta también con servicio de restaurante.
+    * *Web:* [cafefutbol.com](https://cafefutbol.com/)
+* **La Qarmita (Nuestro caso):** [laqarmita.es](https://laqarmita.es/)
+
+---
+
+Al analizar la **primera impresión (Look & Feel)**, detectamos estrategias claramente opuestas. Por un lado, tanto Café Fútbol como La Qarmita **logran transmitir la atmósfera del local**, apostando por un apartado visual que comunica eficazmente el ambiente de cafetería. En contraposición, **Q Pro Quo pierde impacto e interés rápidamente** al presentar una imagen poco distintiva, priorizando un catálogo de libros estilo e-commerce que falla en comunicar la experiencia híbrida de "lectura + café".
+
+Profundizando en la **funcionalidad y el objetivo principal del usuario (consultar la oferta gastronómica)**, encontramos **puntos de fricción significativos**. Q Pro Quo genera incertidumbre al no mostrar opciones de consumición, ocultando la parte de "cafetería" del negocio. Por su parte, aunque Café Fútbol es un referente local, su experiencia digital decae al obligar al usuario a decidir entre "cafetería" o "restaurante" nada más entrar, para luego ofrecer un menú incrustado en un PDF mal optimizado. Este formato no concuerda en posicionamiento ni ofrece confort visual, dificultando la lectura de la oferta y alejándose de los estándares de usabilidad actuales.
+
 
 
 ### 1.c Personas
