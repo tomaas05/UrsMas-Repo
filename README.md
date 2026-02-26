@@ -56,50 +56,41 @@ Logotipo:
 
 <br>
 
-## Paso 1. UX User & Desk Research & Analisis 
+## Paso 1. UX User & Desk Research & Analisis
 
+### 1.a User Research Plan
 
+#### Contexto y Definición del Proyecto
+El proyecto seleccionado para la investigación se centra en **La Qarmita**, un espacio que redefine el concepto tradicional de hostelería en **Granada**. Más allá del servicio de cafetería, analizamos este lugar como un punto de encuentro cultural donde convergen la gastronomía y la literatura.
 
-### 1.a User Reseach Plan
-![Método UX](img/Competitive.png) 
------
+Nuestra premisa es que La Qarmita ofrece una experiencia de **"ocio lento"**. El reto principal es traducir ese **engagement emocional** del mundo físico (el olor a café, la tranquilidad de la lectura) al entorno digital. Buscamos crear un espacio que combine públicos diversos: desde aquellos que buscan un "lugar chulo" para tomar algo, hasta lectores que acuden a eventos, compran libros o buscan nuevos círculos sociales.
 
-# Paso 1. UX User & Desk Research & Analisis
+#### Background del Equipo
+Queremos destacar que **anteriormente no hemos tenido mucho contacto con el desarrollo de páginas web** ni con el análisis de negocios en profundidad. Por tanto, afrontamos este proyecto como una oportunidad de aprendizaje activo, donde iremos adquiriendo estas competencias técnicas a medida que avance el trabajo.
 
-## 1.a User Research Plan
+Sin embargo, en cuanto a **ocio y lectura**, nuestra experiencia es mucho más cercana, tanto por conocidos como por nuestras propias impresiones. Esto nos permite partir con una base sólida de **empatía** hacia el usuario, ayudándonos a acotar mejor sus necesidades y frustraciones reales al buscar este tipo de experiencias.
 
-### Contexto y Definición del Proyecto
-El proyecto seleccionado para la investigación se centra en **La Qarmita**, un espacio que redefine el concepto tradicional de hostelería en Granada. Más allá del servicio de cafetería, analizamos este lugar como un **punto de encuentro cultural** donde convergen la gastronomía y la literatura.
+#### Objetivos de la Investigación
+Buscamos resolver problemas reales de los usuarios y generar valor competitivo. Nos centraremos en los siguientes puntos clave:
 
-Nuestra investigación parte de la premisa de que La Qarmita no vende solo café, sino una experiencia completa: disfrutar de la lectura, descubrir nuevos autores y lanzamientos, participar en debates enriquecedores y, sobre todo, fomentar un **entorno seguro y agradable para socializar**. Abordaremos el proyecto desde la perspectiva de usuarios que buscan espacios de "ocio lento", valorando la prescripción literaria y la calidad del ambiente tanto como el producto consumible.
+1.  **Superar la "Regla de los 5 segundos":** Diseñar una interfaz clara donde el usuario entienda qué es La Qarmita y qué ofrece (café + cultura) en menos de 5 segundos, evitando el abandono por confusión.
+2.  **Visibilidad de la Agenda (Engagement):** Que los eventos (clubes de lectura, presentaciones) sean fáciles de encontrar para "atrapar" al usuario y fomentar la comunidad.
+3.  **Conversión y Afluencia:** Reducir la fricción para quien busca información básica (horarios, ubicación), facilitando la visita física.
+4.  **Posicionamiento "Lifestyle":** Proyectar una imagen vibrante que conecte emocionalmente no solo con lectores, sino con grupos que buscan un ambiente *trendy* y de calidad.
+5.  **Conexión Comunidad-Local:** Facilitar que la web sirva para recomendar lecturas y conectar a personas con intereses similares, extendiendo la experiencia física al mundo online.
 
-### Nuestra experiencia en lugares similares
+#### Estrategia y Metodología
+Para validar nuestras hipótesis y mejorar la interfaz, seguiremos una estrategia centrada en el usuario (UCD). Esta estrategia estará basada en realizar **análisis comparativos** con plataformas similares para entender el mercado.
 
-Nos gustaría destacar que anteriormente no hemos tenido mucho contacto con el desarrollo de páginas web ni con el análisis de negocios en profundidad, por lo que junto con el desarrollo del trabajo iremos aprendiendo y adquiriendo estas competencias.
+Posteriormente, desarrollaremos la creación de **personas ficticias** que nos ayuden a entender mejor al público objetivo, así como **User Journey Maps** para visualizar y mejorar la interacción con nuestra página. Finalmente, se realizará un **Usability Review** que identifique problemas técnicos y de navegación en la propuesta actual.
 
-Sin embargo, el tema de la lectura como ocio sí que nos pilla más de cerca, tanto por conocidos como en nuestras propias carnes. Creemos firmemente que la fusión del café como conector social y un tema apasionante como es la lectura puede hacer *match* con mucha gente. Desde nuestra perspectiva personal, estos establecimientos nos parecen lugares interesantes para conocer a otras personas con las mismas aficiones y compartir opiniones sobre lecturas actuales. Además, valoramos que gracias a sus eventos se facilita el descubrimiento de nuevos autores y géneros que quizás no leeríamos de forma autónoma.
+#### Métricas y KPIs (Indicadores de Éxito)
+Para evaluar si estamos mejorando la experiencia y reduciendo la frustración del usuario, nos centraremos en analizar cuatro aspectos fundamentales sin perdernos en tecnicismos excesivos:
 
-### Objetivos de la Investigación
-El objetivo principal es trasladar esa atmósfera de "refugio cultural" al entorno digital y optimizar la experiencia de usuario (UX) para conseguir:
-1.  **Visibilidad de la Agenda:** Que los usuarios descubran fácilmente los eventos (clubes de lectura, presentaciones) antes de ir.
-2.  **Conexión Comunidad-Local:** Facilitar que la web sirva para recomendar lecturas y conectar a personas con intereses similares, extendiendo la experiencia física al mundo online.
-3.  **Conversión Física:** Aumentar la afluencia al local mediante una información clara sobre ubicación, horarios y oferta gastronómica/literaria.
-
-### Estrategia y Metodología
-Para validar nuestras hipótesis y mejorar la interfaz, seguiremos una estrategia centrada en el usuario:
-* **Benchmarking:** Analizaremos cómo otras "librerías-cafetería" resuelven la dualidad de vender libros y servir cafés.
-* **User Personas & Journey Map:** Crearemos perfiles ficticios (ej: "El lector que busca silencio" vs "El grupo de debate") para entender sus motivaciones y frustraciones al interactuar con la marca digitalmente.
-* **Análisis Heurístico:** Evaluaremos la usabilidad actual para detectar barreras que impidan a los usuarios encontrar la información de los eventos o el menú.
-
-### Métricas y KPIs (Indicadores de Éxito)
-Definimos las siguientes métricas para medir el impacto de nuestra propuesta de diseño:
-
-| Tipo de Métrica | KPI (Indicador Clave) | Objetivo |
-| :--- | :--- | :--- |
-| **Cuantitativa** | **Tasa de interacción con la Agenda** | Medir cuántos usuarios consultan los eventos y hacen clic para "Saber más". |
-| **Cuantitativa** | **Búsqueda de ubicación/contacto** | Número de clics en el mapa o botón de llamada (intención de visita). |
-| **Cualitativa** | **Percepción del "Ambiente"** | Validar mediante test de usuarios si la web transmite la sensación de "entorno seguro y agradable" que define a la marca. |
-
+* **Atención Inicial:** Verificaremos si cumplimos con la "regla de los 5 segundos", observando si el usuario entiende la web rápidamente o si la tasa de rebote es alta.
+* **Eficiencia:** Mediremos la facilidad con la que se encuentra la información clave (como un evento), buscando que la "carga mental" sea la mínima posible.
+* **Satisfacción Emocional:** Evaluaremos, mediante la opinión de los usuarios, si la web transmite las sensaciones de "refugio", "calidad" y "seguridad" que definen a la marca.
+* **Alcance Generacional:** Indagaremos en las sensaciones que les produce el sitio web a diferentes perfiles, asegurando que sea atractivo tanto para nativos digitales como para lectores más tradicionales.
 
 
 ### 1.b Competitive Analysis
