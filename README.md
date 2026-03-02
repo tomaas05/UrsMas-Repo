@@ -149,7 +149,7 @@ En cambio, **Café Fútbol**, al depender de un **PDF o imagen estática**, elim
 
 A continuación, sintetizamos el análisis en una matriz visual que nos permite visualizar rápidamente las brechas de mercado y las oportunidades de diseño frente a la competencia directa e indirecta.
 
-![Tabla Comparativa de Competidores](P1/Analisis_competitivo.jpg)
+![Tabla Comparativa de Competidores](P1/Analisis_competitivo.png)
 
 #### 🔍 Hallazgos clave del análisis
 
