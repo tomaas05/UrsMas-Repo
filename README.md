@@ -145,6 +145,14 @@ En cambio, **Café Fútbol**, al depender de un **PDF o imagen estática**, elim
 
 **Q Pro Quo**, por su parte, introduce una **barrera aún mayor** al exigir desplazarse al local o escanear un QR para acceder a la carta, delegando la experiencia digital en un canal externo y **debilitando su propuesta online**.
 
+#### Cuadro Comparativo
+
+A continuación, sintetizamos el análisis en una matriz visual que nos permite visualizar rápidamente las brechas de mercado y las oportunidades de diseño frente a la competencia directa e indirecta.
+
+![Tabla Comparativa de Competidores](P1/Analisis_competitivo.jpg)
+
+#### 🔍 Hallazgos clave del análisis
+
 
 
 ### 1.c Personas
