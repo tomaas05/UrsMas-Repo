@@ -58,6 +58,8 @@ Logotipo:
 
 ## Paso 1. UX User & Desk Research & Analisis
 
+---
+
 ### 1.a User Research Plan
 
 #### Contexto y Definición del Proyecto
@@ -92,6 +94,7 @@ Para evaluar si estamos mejorando la experiencia y reduciendo la frustración de
 * **Satisfacción Emocional:** Evaluaremos, mediante la opinión de los usuarios, si la web transmite las sensaciones de "refugio", "calidad" y "seguridad" que definen a la marca.
 * **Alcance Generacional:** Indagaremos en las sensaciones que les produce el sitio web a diferentes perfiles, asegurando que sea atractivo tanto para nativos digitales como para lectores más tradicionales.
 
+---
 
 ### 1.b Competitive Analysis
 
@@ -105,11 +108,43 @@ Para el análisis competitivo hemos seleccionado dos sitios web estratégicos: u
     * *Web:* [cafefutbol.com](https://cafefutbol.com/)
 * **La Qarmita (Nuestro caso):** [laqarmita.es](https://laqarmita.es/)
 
----
 
-Al analizar la **primera impresión (Look & Feel)**, detectamos estrategias claramente opuestas. Por un lado, tanto Café Fútbol como La Qarmita **logran transmitir la atmósfera del local**, apostando por un apartado visual que comunica eficazmente el ambiente de cafetería. En contraposición, **Q Pro Quo pierde impacto e interés rápidamente** al presentar una imagen poco distintiva, priorizando un catálogo de libros estilo e-commerce que falla en comunicar la experiencia híbrida de "lectura + café".
+🎨 Primera impresión (Look & Feel)
 
-Profundizando en la **funcionalidad y el objetivo principal del usuario (consultar la oferta gastronómica)**, encontramos **puntos de fricción significativos**. Q Pro Quo genera incertidumbre al no mostrar opciones de consumición, ocultando la parte de "cafetería" del negocio. Por su parte, aunque Café Fútbol es un referente local, su experiencia digital decae al obligar al usuario a decidir entre "cafetería" o "restaurante" nada más entrar, para luego ofrecer un menú incrustado en un PDF mal optimizado. Este formato no concuerda en posicionamiento ni ofrece confort visual, dificultando la lectura de la oferta y alejándose de los estándares de usabilidad actuales.
+Al analizar la primera impresión (Look & Feel), detectamos estrategias claramente opuestas. Por un lado, tanto Café Fútbol como La Qarmita logran transmitir la atmósfera del local, apostando por un apartado visual coherente que comunica eficazmente el ambiente de cafetería y refuerza su identidad física en el entorno digital.
+
+En contraposición, Q Pro Quo pierde impacto e interés rápidamente, al presentar una imagen poco distintiva que prioriza un catálogo de libros estilo e-commerce. Esta decisión visual diluye su propuesta híbrida de “lectura + café” y no consigue trasladar la experiencia diferencial que promete el espacio físico.
+
+🍽 Funcionalidad y objetivo principal del usuario
+
+Profundizando en la funcionalidad y el objetivo principal del usuario (consultar la oferta gastronómica), encontramos puntos de fricción significativos.
+
+Q Pro Quo genera incertidumbre al no mostrar opciones de consumición de forma clara, ocultando la parte de “cafetería” del negocio y obligando al usuario a reinterpretar la propuesta.
+
+Por su parte, aunque Café Fútbol es un referente local, su experiencia digital decae al obligar al visitante a elegir entre “cafetería” o “restaurante” nada más entrar, fragmentando el flujo natural de exploración. Posteriormente, ofrece la carta en un PDF incrustado y mal optimizado, un formato que rompe la jerarquía visual, dificulta la escaneabilidad y se aleja de los estándares actuales de usabilidad.
+
+En contraste, La Qarmita presenta una carta bien localizada, estructurada en HTML, con fotografías identificativas, descripción de ingredientes y precios visibles. Esto facilita una lectura cómoda, mejora la jerarquía de la información y reduce la fricción cognitiva.
+
+📖 Storytelling e Identidad de Marca
+
+En cuanto al Storytelling, las diferencias estratégicas son evidentes.
+
+Café Fútbol construye su narrativa alrededor de la tradición y el pasado, pero incurre en repetición y deja en segundo plano su propuesta actual. Existe una desalineación entre el contexto de uso del usuario —que busca información práctica inmediata— y una narrativa excesivamente centrada en la memoria histórica, lo que provoca pérdida de interés.
+
+Por otro lado, Q Pro Quo no define con claridad su identidad híbrida: refuerza su autoridad como librería, pero diluye su faceta de cafetería, generando ambigüedad en el posicionamiento (“¿es una librería con café o una cafetería temática?”).
+
+Finalmente, La Qarmita articula con claridad su identidad como “cafetería & librería”, integrando además información sobre eventos culturales y promociones. Esto refuerza su propuesta de valor y genera diferenciación competitiva.
+
+♿ Accesibilidad y Barreras
+
+En el apartado de Accesibilidad y Barreras, también emergen contrastes relevantes.
+
+Q Pro Quo incorpora versión en inglés, lo que amplía su alcance potencial y mejora su apertura a público internacional. Sin embargo, en términos de accesibilidad funcional, La Qarmita destaca al presentar su carta en texto HTML, permitiendo búsquedas rápidas mediante funciones nativas como “Buscar en la página” (Ctrl + F). Esta característica reduce significativamente la carga cognitiva de usuarios con restricciones alimentarias que necesiten localizar términos como “gluten”, “vegano” o “soja”.
+
+En cambio, Café Fútbol, al depender de un PDF o imagen estática, elimina esta posibilidad de búsqueda directa, obligando al usuario a revisar manualmente todo el documento, lo que incrementa la fricción y puede generar frustración.
+
+Q Pro Quo, por su parte, introduce una barrera aún mayor al exigir desplazarse al local o escanear un QR para acceder a la carta, delegando la experiencia digital en un canal externo y debilitando su propuesta online.
+ 
 
 
 
