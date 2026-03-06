@@ -156,10 +156,18 @@ A continuación, sintetizamos el análisis en una matriz visual que nos permite 
 
 
 ### 1.c Personas
-![Método UX](img/Persona.png) 
------
 
->>> Junto con la captura de pantalla de la ficha de la persona, haz una breve descripción de la misma. Recuerda que son dos. Los recursos de imagen deberán estar dentro de la carpeta P1/ Cuando termines, borra esta línea.  
+---
+
+#### **Persona 1: Francisco López**
+![Persona 1 - Francisco López](P1/Persona1.png)
+
+Francisco es un **inspector de policía de 45 años** nacido en Barcelona que trabaja en Granada. Se caracteriza por ser un profesional **perfeccionista, metódico e introvertido**, con una alta capacidad para la resolución de problemas técnicos y lógicos, pero con ciertas dificultades en las relaciones sociales más informales. Su principal motivación es encontrar un **refugio tranquilo y ordenado** en el que pueda desconectar de su exigente carga laboral disfrutando de un buen café y lecturas de ciencia ficción.
+
+#### **Persona 2: Marta Sánchez**
+![Persona 2 - Marta Sánchez](P1/Persona2.png)
+
+Marta es una **estudiante de Historia de 20 años** natural de Ronda (Málaga). A pesar de convivir con problemas de **ansiedad y depresión**, destaca por ser una persona **altamente empática, colaborativa** y con un grupo social muy activo. Utiliza la web para localizar espacios que no sean estresantes y que posean una **atmósfera acogedora e inspiradora**, buscando en La Qarmita un lugar seguro donde estudiar y socializar con su círculo íntimo.
 
 
 ### 1.d User Journey Map
