@@ -175,7 +175,7 @@ Marta es una **estudiante de Historia de 20 años** natural de Ronda (Málaga). 
 ----
 ![Persona 1 - Francisco López](P1/FranciscoJourney.png)
 
-![Persona 2 - Marta Sánchez] (P1/Martajourney.png)
+![Persona 2 - Marta Sánchez](P1/Martajourney.png)
 
 ### 1.e Usability Review
 ![Método UX](img/usabilityReview.png) 
