@@ -173,9 +173,9 @@ Marta es una **estudiante de Historia de 20 años** natural de Ronda (Málaga). 
 ### 1.d User Journey Map
 ![Método UX](img/JourneyMap.png) 
 ----
+![Persona 1 - Francisco López](P1/FranciscoJourney.png)
 
->>> Describe el porqué de las dos experiencias de usuario contadas en el journey map. Por ejemplo, reflexiona si te parece que son habituales. Enlaza con los recursos journey que están en la carpeta P1/. Borra esta linea del template cuando termines.  
-
+![Persona 2 - Marta Sánchez] (P1/Martajourney.png)
 
 ### 1.e Usability Review
 ![Método UX](img/usabilityReview.png) 
