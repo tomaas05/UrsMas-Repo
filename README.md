@@ -147,17 +147,13 @@ En cambio, **Café Fútbol**, al depender de un **PDF o imagen estática**, elim
 
 #### Cuadro Comparativo
 
-A continuación, sintetizamos el análisis en una matriz visual que nos permite visualizar rápidamente las brechas de mercado y las oportunidades de diseño frente a la competencia directa e indirecta.
+A continuación, se muestra de manera visual estas comparaciones siguiendo un sistema de puntaje de 5 estrellas con comentarios extra.
 
 ![Tabla Comparativa de Competidores](P1/Analisis_competitivo.png)
 
-#### 🔍 Hallazgos clave del análisis
-
-
+---
 
 ### 1.c Personas
-
----
 
 #### **Persona 1: Francisco López**
 ![Persona 1 - Francisco López](P1/Persona1.png)
@@ -171,21 +167,22 @@ Marta es una **estudiante de Historia de 20 años** natural de Ronda (Málaga). 
 
 
 ### 1.d User Journey Map
-![Método UX](img/JourneyMap.png) 
-----
-![Persona 1 - Francisco López](P1/FranciscoJourney.png)
 
+Se han analizado los viajes de Francisco (perfil metódico) y Marta (perfil sensible) para detectar fricciones en el uso de la web.
+
+![Persona 1 - Francisco López](P1/FranciscoJourney.png)
 ![Persona 2 - Marta Sánchez](P1/Martajourney.png)
 
+* **Resumen del análisis:** Ambos usuarios coinciden en puntos de dolor críticos: la frustración por ser redirigidos a enlaces externos para ver la carta y la imposibilidad de reservar plaza para eventos culturales. Mientras Francisco penaliza la falta de filtros de búsqueda, Marta siente inseguridad ante la falta de un mapa interactivo y más fotos claras del ambiente.
+
+---
+
 ### 1.e Usability Review
-![Método UX](img/usabilityReview.png) 
-----
 
->>>  El objetivo es revisar la usabilidad del competidor seleccionado. Usamos un checklist de verificación. Tras usarlo, subelo a la carpeta P1/ Ofrece aquí un parrafo para:
->>> - Enlace al documento:  (xls/pdf) 
->>> - URL y Valoración numérica obtenida: 
->>> - Comentario sobre la revisión:  (puntos fuertes y débiles detectados)
-
+* **Enlace al documento:** [Ver Usability Review (PDF)](P1/Usability-review.pdf).
+* **URL y Valoración numérica obtenida:** [laqarmita.es](https://laqarmita.es/) | **68/100 (Moderado)**.
+* **Comentario sobre la revisión:** * **Puntos fuertes:** El sitio destaca por una estructura de contenidos fácil de entender y un lenguaje muy coherente con su público objetivo. Los botones de acción son claros y visualmente identificables como elementos clicables.
+    * **Puntos débiles:** La navegación es poco flexible, careciendo de buscadores o filtros efectivos. Además, existen problemas de legibilidad (texto blanco sobre fondo claro en algunas secciones) y no se indica claramente la ubicación del usuario mediante rutas de navegación.
 <br>
 
 ## Paso 2. UX Design  
