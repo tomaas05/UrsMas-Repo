@@ -181,8 +181,8 @@ Se han analizado los viajes de Francisco (perfil metódico) y Marta (perfil sens
 
 * **Enlace al documento:** [Ver Usability Review (PDF)](P1/Usability-review.pdf).
 * **URL y Valoración numérica obtenida:** [laqarmita.es](https://laqarmita.es/) | **68/100 (Moderado)**.
-* **Comentario sobre la revisión:** * 
-    **Puntos fuertes:** El sitio destaca por una estructura de contenidos fácil de entender y un lenguaje muy coherente con su público objetivo. Los botones de acción son claros y visualmente identificables como elementos clicables.
+* **Comentario sobre la revisión:** 
+    * **Puntos fuertes:** El sitio destaca por una estructura de contenidos fácil de entender y un lenguaje muy coherente con su público objetivo. Los botones de acción son claros y visualmente identificables como elementos clicables.
     * **Puntos débiles:** La navegación es poco flexible, careciendo de buscadores o filtros efectivos. Además, existen problemas de legibilidad (texto blanco sobre fondo claro en algunas secciones) y no se indica claramente la ubicación del usuario mediante rutas de navegación.
 <br>
 
