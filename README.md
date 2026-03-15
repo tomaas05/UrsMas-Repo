@@ -37,7 +37,7 @@ Logotipo:
 
 >>> Si diseña un logotipo para su producto en la práctica 3 pongalo aqui, a un tamaño adecuado. Si diseña un slogan añadalo aquí
 
-### 🚀 UrsMas Team
+### UrsMas Team
 
 **Integrantes:**
 
@@ -109,13 +109,13 @@ Para el análisis competitivo hemos seleccionado dos sitios web estratégicos: u
 * **La Qarmita (Nuestro caso):** [laqarmita.es](https://laqarmita.es/)
 
 
-#### 🎨 Primera impresión (Look & Feel)
+#### Primera impresión (Look & Feel)
 
 Al analizar la primera impresión (**Look & Feel**), detectamos **estrategias claramente opuestas**. Por un lado, tanto **Café Fútbol** como **La Qarmita** logran **transmitir la atmósfera del local**, apostando por un apartado visual coherente que comunica eficazmente el ambiente de cafetería y refuerza su **identidad física** en el entorno digital.
 
 En contraposición, **Q Pro Quo pierde impacto e interés rápidamente**, al presentar una imagen poco distintiva que **prioriza un catálogo de libros estilo e-commerce**. Esta decisión visual **diluye su propuesta híbrida** de “lectura + café” y no consigue trasladar la **experiencia diferencial** que promete el espacio físico.
 
-#### 🍽 Funcionalidad y objetivo principal del usuario
+#### Funcionalidad y objetivo principal del usuario
 
 Profundizando en la **funcionalidad y el objetivo principal** del usuario (consultar la oferta gastronómica), encontramos **puntos de fricción significativos**.
 
@@ -125,7 +125,7 @@ Por su parte, aunque **Café Fútbol** es un referente local, su **experiencia d
 
 En contraste, **La Qarmita** presenta una carta bien localizada, **estructurada en HTML**, con **fotografías identificativas**, descripción de ingredientes y precios visibles. Esto facilita una **lectura cómoda**, mejora la jerarquía de la información y reduce la **fricción cognitiva**.
 
-#### 📖 Storytelling e Identidad de Marca
+#### Storytelling e Identidad de Marca
 
 En cuanto al **Storytelling**, las **diferencias estratégicas** son evidentes.
 
@@ -135,7 +135,7 @@ Por otro lado, **Q Pro Quo no define con claridad su identidad híbrida**: refue
 
 Finalmente, **La Qarmita articula con claridad su identidad** como “cafetería & librería”, integrando además información sobre eventos culturales y promociones. Esto refuerza su **propuesta de valor** y genera **diferenciación competitiva**.
 
-#### ♿ Accesibilidad y Barreras
+#### Accesibilidad y Barreras
 
 En el apartado de **Accesibilidad y Barreras**, también emergen contrastes relevantes.
 
@@ -181,7 +181,8 @@ Se han analizado los viajes de Francisco (perfil metódico) y Marta (perfil sens
 
 * **Enlace al documento:** [Ver Usability Review (PDF)](P1/Usability-review.pdf).
 * **URL y Valoración numérica obtenida:** [laqarmita.es](https://laqarmita.es/) | **68/100 (Moderado)**.
-* **Comentario sobre la revisión:** * **Puntos fuertes:** El sitio destaca por una estructura de contenidos fácil de entender y un lenguaje muy coherente con su público objetivo. Los botones de acción son claros y visualmente identificables como elementos clicables.
+* **Comentario sobre la revisión:** * 
+    **Puntos fuertes:** El sitio destaca por una estructura de contenidos fácil de entender y un lenguaje muy coherente con su público objetivo. Los botones de acción son claros y visualmente identificables como elementos clicables.
     * **Puntos débiles:** La navegación es poco flexible, careciendo de buscadores o filtros efectivos. Además, existen problemas de legibilidad (texto blanco sobre fondo claro en algunas secciones) y no se indica claramente la ubicación del usuario mediante rutas de navegación.
 <br>
 

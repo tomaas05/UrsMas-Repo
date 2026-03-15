@@ -3,21 +3,21 @@
 A continuación se detallan los recursos y evidencias generados durante la práctica, junto con una descripción técnica de cada uno:
 
 * **Desk research: Análisis Competencia**
-    * 📄 [Ver Análisis Competitivo](./Analisis_competitivo.png)
+    * [Ver Análisis Competitivo](./Analisis_competitivo.png)
     * *Descripción técnica:* Se ha realizado un estudio de mercado comparando **La Qarmita** con dos competidores estratégicos: **Q Pro Quo** (competencia directa por modelo híbrido) y **Café Fútbol** (competencia tradicional). Las principales conclusiones destacan un hueco de oportunidad en la **accesibilidad digital**, ya que la competencia suele depender de formatos obsoletos como el PDF o carece de información clara sobre su oferta de cafetería. La ventaja competitiva de La Qarmita reside en su **transparencia informativa y formato de carta accesible (HTML)**.
 
 * **2 Personas**
-    * 👤 [Ver Persona 1](./Persona1.png) (Asociada a Francisco)
-    * 👤 [Ver Persona 2](./Persona2.png) (Asociada a Marta)
+    * [Ver Persona 1](./Persona1.png) (Asociada a Francisco)
+    * [Ver Persona 2](./Persona2.png) (Asociada a Marta)
     * *Descripción técnica:* Se han diseñado dos arquetipos de usuario con necesidades opuestas para testear la interfaz bajo diferentes prismas. **Francisco López** representa al usuario experto, metódico y buscador de **eficiencia técnica**. **Marta Sánchez** encarna a la usuaria joven y empática que busca un **"refugio seguro"** y una atmósfera acogedora para gestionar su ansiedad social.
     
 * **2 User Journey Map (1 por persona)**
-    * 🗺️ [Ver User Journey - Marta](./Martajourney.png)
-    * 🗺️ [Ver User Journey - Francisco](./Franciscojourney.png)
+    * [Ver User Journey - Marta](./Martajourney.png)
+    * [Ver User Journey - Francisco](./Franciscojourney.png)
     * *Descripción técnica:* En el caso de Marta, se detectó la necesidad de **seguridad visual** antes de la visita física. Para Francisco, el punto crítico es la **ineficiencia informativa**. Ambos mapas revelan que la falta de un sistema de **reserva online para eventos** es el "pain point" más relevante que debemos resolver en la fase de diseño.
 
 * **Revisión de Usabilidad**
-    * 📋 [Ver Documento de Revisión de Usabilidad](./Usability-review.pdf)
+    * [Ver Documento de Revisión de Usabilidad](./Usability-review.pdf)
     * *Descripción técnica:* Se ha llevado a cabo una inspección del sitio actual de **laqarmita.es** empleando la plantilla proporcionada con criterios de usabilidad. Quedando como resultado 68 puntos, dejando una usabilidad moderada. 
 
 ---
