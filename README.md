@@ -186,13 +186,15 @@ Se han analizado los viajes de Francisco (perfil metódico) y Marta (perfil sens
     * **Puntos débiles:** La navegación es poco flexible, careciendo de buscadores o filtros efectivos. Además, existen problemas de legibilidad (texto blanco sobre fondo claro en algunas secciones) y no se indica claramente la ubicación del usuario mediante rutas de navegación.
 <br>
 
-## Paso 2. UX Design  
+## Paso 2. UX Design
 
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
+---
 
 ### 2.a Reframing / IDEACION: Feedback Capture Grid / EMpathy map 
-![Método UX](img/feedback-capture-grid.png) 
+
 ----
+
+A continuación se muestra un mapa de empatía que puede tener un usuario promedio de La Qarmita en su estado actual.
 
 ![Empathy Map](P2/EmpathyMap.png)
 
