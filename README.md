@@ -211,6 +211,8 @@ A continuación se muestra un mapa de empatía que puede tener un usuario promed
 ![Método UX](img/Sitemap.png) 
 -----
 
+![User Flow](P2/UserFlow-refactorizado.png)
+
 >>> Definir "User Map" y "Task Flow" ... enlazar desde P2/ y describir brevemente
 
 
