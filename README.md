@@ -211,9 +211,33 @@ A continuación se muestra un mapa de empatía que puede tener un usuario promed
 ![Método UX](img/Sitemap.png) 
 -----
 
-![User Flow](P2/UserFlow-refactorizado.png)
+Hemos definido las tareas más importantes de nuestra funcionalidad en una tabla en la que según el perfil de la persona que use la página tendrán un uso o acceso diferente.
+Hemos diferenciado entre usuario registrado, no registrado y el administrador que se encargará de tener la página actualizada
 
->>> Definir "User Map" y "Task Flow" ... enlazar desde P2/ y describir brevemente
+**Task Analysis**
+
+| Acción | Usuario no registrado | Usuario registrado | Administrador |
+| :--- | :--- | :--- | :--- |
+| **Navegar por la página de inicio** | Alta | Alta | Alta |
+| **Ver la carta (Cafetería)** | Alta | Alta | Baja |
+| **Ver catálogo / Seleccionar un libro** | Alta | Alta | Baja |
+| **Añadir libro al carrito** | Media | Alta | - |
+| **Ir al carrito / Proceder al pago** | - | Alta | - |
+| **Ver calendario de eventos** | Alta | Alta | Baja |
+| **Mirar información de un evento** | Alta | Alta | Baja |
+| **Iniciar sesión / Registrarse** | Alta | - | Alta |
+| **Cerrar sesión** | - | Alta | Alta |
+| **Reservar evento / Confirmar reserva** | - | Alta | - |
+| **Cancelar acción (compra / reserva)** | Media | Media | - |
+| **Añadir/Editar libros del catálogo** | - | - | Alta |
+| **Actualizar carta de la cafetería** | - | - | Alta |
+| **Crear/Gestionar eventos** | - | - | Alta |
+
+**Userflow**
+
+Para representar como será la navegación en nuestro sistema hemos diseñado un userflow con las tareas más significativas:
+
+![User Flow](P2/UserFlow-refactorizado.png)
 
 
 ### 2.c IA: Sitemap + Labelling 
