@@ -243,6 +243,8 @@ Para representar como será la navegación en nuestro sistema hemos diseñado un
 ### 2.c IA: Sitemap + Labelling 
 ![Método UX](img/labelling.png) 
 
+![SiteMap](P2/Sitemap.png)
+
 A continuación, presentamos nuestro *Sitemap* para ver como será la navegación y la tabla de *Labelling*
 
 | Término | Significado |
@@ -267,6 +269,7 @@ A continuación, presentamos nuestro *Sitemap* para ver como será la navegació
 | **Área de Administración** | Espacio oculto y exclusivo para los gestores y dueños de la plataforma. |
 | **Gestión de eventos** | Panel del administrador para crear, editar, cancelar o aprobar eventos en el calendario. |
 | **Gestión de libros** | Panel del administrador para añadir nuevo stock, actualizar precios o retirar libros del catálogo. |
+
 
 ### 2.d Wireframes
 ![Método UX](img/Wireframes.png) 
