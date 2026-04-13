@@ -242,14 +242,31 @@ Para representar como será la navegación en nuestro sistema hemos diseñado un
 
 ### 2.c IA: Sitemap + Labelling 
 ![Método UX](img/labelling.png) 
-----
 
->>> Identificar términos para diálogo con usuario (evita el spanglish) y la arquitectura de la información. Es muy apropiado un diagrama tipo sitemap y una tabla que se ampliaría para llevar asociado la columna iconos (tanto para la web como para una app). 
+A continuación, presentamos nuestro *Sitemap* para ver como será la navegación y la tabla de *Labelling*
 
-Término | Significado     
-| ------------- | -------
-  Login  | acceder a plataforma
-
+| Término | Significado |
+| :--- | :--- |
+| **Página de Inicio** | Punto de entrada a la web que presenta las diferentes áreas de La Qarmita (Libros, Cafetería, Eventos y Foro). |
+| **Área de Cuenta** | Sección general dedicada al acceso y registro de los clientes. |
+| **Iniciar sesión** | Acceso de usuarios ya registrados a su cuenta privada mediante sus credenciales. |
+| **Registrarse** | Opción para crear una nueva cuenta y formar parte de la comunidad de La Qarmita. |
+| **Perfil** | Área privada donde el usuario puede ver y gestionar sus datos personales, compras y reservas. |
+| **Área de Libros** | Sección de catálogo y tienda online para explorar la oferta literaria. |
+| **Información y detalles del libro** | Página específica que muestra la sinopsis, autor, precio y disponibilidad de una obra. |
+| **Añadir al carrito** | Acción que permite al usuario guardar temporalmente un libro para su compra. |
+| **Zona de carrito / Ir al carrito** | Espacio donde el usuario revisa los libros seleccionados antes de formalizar el pedido. |
+| **Proceder al pago** | Proceso de *checkout* final para confirmar y abonar los artículos del carrito. |
+| **Área de Cafetería** | Sección dedicada a mostrar la propuesta gastronómica del local físico. |
+| **Información de la carta / Ver la carta** | Visualización detallada del menú, incluyendo ingredientes, precios y alérgenos. |
+| **Área de Eventos** | Sección que recoge la agenda cultural y social de La Qarmita. |
+| **Calendario de eventos** | Vista estructurada cronológicamente para facilitar la búsqueda de próximas actividades. |
+| **Detalles y reserva de eventos** | Página de información específica de una actividad (club de lectura, presentación, etc.) con la opción de inscribirse. |
+| **Confirmar reserva** | Acción final para asegurar la plaza en un evento (requiere haber iniciado sesión). |
+| **Área del foro** | Espacio interactivo de comunidad donde los usuarios pueden debatir, compartir opiniones y recomendar lecturas. |
+| **Área de Administración** | Espacio oculto y exclusivo para los gestores y dueños de la plataforma. |
+| **Gestión de eventos** | Panel del administrador para crear, editar, cancelar o aprobar eventos en el calendario. |
+| **Gestión de libros** | Panel del administrador para añadir nuevo stock, actualizar precios o retirar libros del catálogo. |
 
 ### 2.d Wireframes
 ![Método UX](img/Wireframes.png) 
