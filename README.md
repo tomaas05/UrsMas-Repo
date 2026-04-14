@@ -1,41 +1,24 @@
 # DIU26
-Prácticas Diseño Interfaces de Usuario (Tema: .... ) 
-
-* [Guiones de prácticas](GuionesPracticas/)
-* [Guía para crea tu Case Study](Guia_CaseStudy.md)
-* Sala de la Fama [DIU Hall of fame](https://github.com/mgea/DIU/tree/master/hall_of_fame) donde se pueden encontrar Case Study destacados de otros años.
+Prácticas Diseño Interfaces de Usuario (Tema: Sabores con Encanto ) 
 
 
-
-
-Actualizado: 14/01/2026
+Actualizado: 14/04/2026
 
 
 
 
-## Paso 0 My UX-Case Study
+## Paso 0. Mi UX-Case Study
 ![Método UX](img/caseStudy.png) 
 -----
 
->>> Este documento es el esqueleto del Case Study que explica el proceso de desarrollo de las 5 prácticas de DIU. Aparte de subir cada entrega a PRADO, se debe actualizar y dar formato de informe final a este documento online. Elimine este tipo de texto / comentarios desde la práctica 1 conforme proceda a cada paso
+**Grupo:** DIU2_UrsMas.  **Curso:** 2025/26 
 
+**Nombre del Proyecto:** Rediseño Web de La Qarmita 
 
->>> Hay que Publicar de forma incremental "my Case Study" en Github... Es el momento de dejar este documento para que sea evaluado y calificado como parte de la práctica
->>> Documente bien la cabecera y asegurese que ha resumido los pasos realizados para el diseño de su producto
+**Descripción:** Plataforma digital diseñada para trasladar la experiencia de "ocio lento" de **La Qarmita** (un espacio híbrido que une cafetería y librería en Granada) al entorno online. Nuestro objetivo es crear una web intuitiva que elimine las fricciones actuales del negocio físico, integrando una carta gastronómica digital accesible, una tienda de libros optimizada con filtros, un sistema de gestión y reserva de eventos culturales, y un foro de reseñas para fomentar la comunidad lectora.
 
-Grupo: DIU2_UrsMas.  Curso: 2025/26 
-
-Nombre del Proyecto: 
-
->>> Decida el nombre corto de su propuesta en la práctica 2 
-
-Descripción: 
-
->>> Describa la idea de su producto en la práctica 2 
-
-Logotipo: 
-
->>> Si diseña un logotipo para su producto en la práctica 3 pongalo aqui, a un tamaño adecuado. Si diseña un slogan añadalo aquí
+**Logotipo:** ![Logotipo La Qarmita](P3/logo.png) 
+*(Logotipo y eslogan en desarrollo para la Práctica 3)*
 
 ### UrsMas Team
 
@@ -44,9 +27,7 @@ Logotipo:
 * **Tomás Serrano Borrego** — [Visitar Perfil :octocat:](https://github.com/tomaas05)
 * **Úrsula Barato Berdugo** — [Visitar Perfil :octocat:](https://github.com/UrsulaUGR05)
 
------ 
-
-<br>
+-----
 
 # Proceso de Diseño 
 
@@ -276,7 +257,7 @@ A continuación, presentamos nuestro *Sitemap* para ver como será la navegació
 ![Método UX](img/Wireframes.png) 
 -----
 
-Para la conceptualización visual de **La Qarmita**, hemos desarrollado wireframes de baja/media fidelidad centrados en resolver los puntos de fricción detectados durante nuestra investigación (User Journey). El diseño mantiene una estructura de navegación coherente en la cabecera y un pie de página (footer) constante. 
+Para la conceptualización visual de **La Qarmita**, hemos desarrollado wireframes simplones centrados en resolver los puntos de fricción detectados durante nuestra investigación (User Journey). El diseño mantiene una estructura de navegación coherente en la cabecera y un pie de página (footer) constante. 
 
 > **Nota de diseño:** En todas las pantallas, el enlace *"Dónde encontrarnos"* del footer redirige directamente a **Google Maps** con la ubicación exacta del local, reduciendo la fricción para los usuarios que desean planificar su visita física.
 
