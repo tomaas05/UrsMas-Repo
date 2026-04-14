@@ -50,10 +50,6 @@ Logotipo:
 
 # Proceso de Diseño 
 
-
-
-
-
 <br>
 
 ## Paso 1. UX User & Desk Research & Analisis
@@ -243,9 +239,14 @@ Para representar como será la navegación en nuestro sistema hemos diseñado un
 ### 2.c IA: Sitemap + Labelling 
 ![Método UX](img/labelling.png) 
 
+A continuación, presentamos nuestro *Sitemap* para ver como será la navegación y la tabla de *Labelling*
+
+**Sitemap**
+
 ![SiteMap](P2/Sitemap.png)
 
-A continuación, presentamos nuestro *Sitemap* para ver como será la navegación y la tabla de *Labelling*
+**Labelling**
+
 
 | Término | Significado |
 | :--- | :--- |
@@ -275,15 +276,46 @@ A continuación, presentamos nuestro *Sitemap* para ver como será la navegació
 ![Método UX](img/Wireframes.png) 
 -----
 
-![Página Principal](P2/PaginaPrincipal.png)
+Para la conceptualización visual de **La Qarmita**, hemos desarrollado wireframes de baja/media fidelidad centrados en resolver los puntos de fricción detectados durante nuestra investigación (User Journey). El diseño mantiene una estructura de navegación coherente en la cabecera y un pie de página (footer) constante. 
 
-![Área de cafetería](P2/Carta.png)
+> **Nota de diseño:** En todas las pantallas, el enlace *"Dónde encontrarnos"* del footer redirige directamente a **Google Maps** con la ubicación exacta del local, reduciendo la fricción para los usuarios que desean planificar su visita física.
 
-![Área de libros](P2/Libros.png)
+<br>
 
-![Área de eventos](P2/Eventos.png)
+#### 1. Página Principal
+Actúa como nuestro escaparate digital. Su objetivo es superar la "Regla de los 5 segundos", mostrando de un vistazo el concepto híbrido del negocio (café + cultura). Incluye llamadas a la acción rápidas hacia las promociones gastronómicas y las lecturas recomendadas.
 
-![Área de foro](P2/Foro.png)
+<p align="center">
+  <img src="P2/PaginaPrincipal.png" width="700" alt="Wireframe - Página Principal">
+</p>
+
+#### 2. Área de Cafetería (Carta)
+Eliminamos la barrera del menú en PDF. Ahora la carta está integrada en la web, dividida por categorías visuales (Especialidades, Cafés, Snacks) con imágenes descriptivas, nombres y precios, facilitando el escaneo rápido y la legibilidad.
+
+<p align="center">
+  <img src="P2/Carta.png" width="700" alt="Wireframe - Área de cafetería">
+</p>
+
+#### 3. Área de Libros
+La tienda online. Hemos incorporado una **barra de búsqueda y sistema de filtros**, resolviendo directamente la frustración detectada en usuarios metódicos (como nuestra *Persona* Francisco). El catálogo se organiza de forma amigable mediante recomendaciones, novedades y favoritos.
+
+<p align="center">
+  <img src="P2/Libros.png" width="700" alt="Wireframe - Área de libros">
+</p>
+
+#### 4. Área de Eventos
+Diseñada para potenciar la comunidad y el "ocio lento". Destaca el evento más próximo en la cabecera y ofrece un gran calendario interactivo. Al seleccionar un evento, el usuario accede a la información detallada y a la opción de reserva, solucionando la falta de digitalización de este servicio.
+
+<p align="center">
+  <img src="P2/Eventos.png" width="700" alt="Wireframe - Área de eventos">
+</p>
+
+#### 5. Área de Foro (Comparte tu experiencia)
+Accesible desde la barra de navegación principal, este espacio es el corazón de la comunidad online. Permite a los usuarios añadir comentarios, dejar valoraciones y leer las reseñas de otros clientes, trasladando el ambiente acogedor del local al entorno digital.
+
+<p align="center">
+  <img src="P2/Foro.png" width="700" alt="Wireframe - Área de foro">
+</p>
 
 <br>
 
