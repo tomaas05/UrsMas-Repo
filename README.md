@@ -275,7 +275,15 @@ A continuación, presentamos nuestro *Sitemap* para ver como será la navegació
 ![Método UX](img/Wireframes.png) 
 -----
 
->>> Plantear el diseño del layout para Web/movil (organización y simulación). Describa la herramienta usada 
+![Página Principal](P2/PaginaPrincipal.png)
+
+![Área de cafetería](P2/Carta.png)
+
+![Área de libros](P2/Libros.png)
+
+![Área de eventos](P2/Eventos.png)
+
+![Área de foro](P2/Foro.png)
 
 <br>
 
