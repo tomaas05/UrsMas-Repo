@@ -316,7 +316,7 @@ Accesible desde la barra de navegación principal, este espacio es el corazón d
 ![Método UX](img/landing-page.png) 
 ----
 
->>> Plantear el Landing Page del producto. Aplica estilos definidos en el moodboard
+![Moodboard](P3/LandingPage.png)
 
 
 ### 3.c Guidelines
