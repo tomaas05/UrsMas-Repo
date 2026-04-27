@@ -316,7 +316,11 @@ Accesible desde la barra de navegación principal, este espacio es el corazón d
 ![Método UX](img/landing-page.png) 
 ----
 
+Nosotros primeramente hicimos un diseño que no era responsive y con algunos fallos de legibilidad, cuyo resultado es el siguiente:
+
 ![Moodboard](P3/LandingPage.png)
+
+A continuación tenemos una versión remodelada con comoponentes responsive y la paleta arreglada:
 
 
 ### 3.c Guidelines
