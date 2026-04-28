@@ -322,7 +322,9 @@ Nosotros primeramente hicimos un diseño que no era responsive y con algunos fal
 
 A continuación tenemos una versión remodelada con componentes responsive (*Auto Layout*) y la paleta arreglada para garantizar el contraste y la legibilidad:
 
-![Landing Page Responsive](P3/Landing-page-remodelada.png) 
+![Landing Page Responsive](P3/Landing-page-remodelada.png)
+
+Ver el resultado en Figma [aqui](https://www.figma.com/design/JIRIAuXhJ4yCVDZBU1xFgJ/Frameworks?node-id=0-1&p=f&t=wgcLTUzpyuy64X87-0).
 
 ### 3.c Guidelines
 ![Método UX](img/guidelines.png) 
