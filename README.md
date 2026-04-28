@@ -318,18 +318,40 @@ Accesible desde la barra de navegación principal, este espacio es el corazón d
 
 Nosotros primeramente hicimos un diseño que no era responsive y con algunos fallos de legibilidad, cuyo resultado es el siguiente:
 
-![Moodboard](P3/LandingPage.png)
+![Landing Page Original](P3/LandingPage.png)
 
-A continuación tenemos una versión remodelada con comoponentes responsive y la paleta arreglada:
+A continuación tenemos una versión remodelada con componentes responsive (*Auto Layout*) y la paleta arreglada para garantizar el contraste y la legibilidad:
 
+![Landing Page Responsive](P3/Landing-page-remodelada.png) 
 
 ### 3.c Guidelines
 ![Método UX](img/guidelines.png) 
 ----
 
->>> Estudio de Guidelines y explicación de los Patrones IU a usar 
->>> Es decir, tras documentarse, muestre las deciones tomadas sobre Patrones IU a usar para la fase siguiente de prototipado. 
+Para el desarrollo del prototipo Hi-Fi de **La Qarmita** (versión escritorio), hemos aplicado la metodología **Atomic Design** y los principios fundamentales de **Material Design 3** para construir un sistema de diseño coherente, escalable y accesible.
 
+**Herramientas y Recursos base**
+* **Material Theme Builder:** Hemos utilizado este plugin para generar nuestra paleta tonal a partir de los colores del *moodboard*, garantizando matemáticamente un contraste óptimo entre fondos y textos para cumplir con los estándares de accesibilidad visual.
+* **Material Symbols:** Empleado para integrar iconografía estandarizada y reconocible (perfil, idioma, ubicación, correo).
+
+**Paleta de Colores (Accesibilidad y Contraste)**
+Se han corregido los problemas de legibilidad del diseño inicial asignando roles estrictos a cada color:
+* **Background / Surface (Tonos Crema - `#F2E0C9`, `#E4D8C6`):** Utilizados como lienzo principal y fondo de las tarjetas para transmitir calidez y la sensación de "ocio lento".
+* **On Background / On Surface (Marrón Oscuro - `#592D23`):** Aplicado a todos los textos e iconos para asegurar una lectura perfecta y sin fatiga visual sobre los fondos claros.
+* **Primary (Burdeos - `#A34C3D`):** Reservado exclusivamente para botones y llamadas a la acción (Call to Action). El texto en su interior utiliza el token `On Primary` (crema claro) para maximizar el contraste.
+
+**Tipografía**
+* **Merriweather (Serif):** Utilizada en títulos y encabezados (`H1`, `H2`) para reforzar la identidad clásica y literaria de la librería.
+* **Nunito (Sans-Serif):** Empleada en los cuerpos de texto y menús de navegación, aportando limpieza y legibilidad en entornos digitales.
+
+**Patrones UI Aplicados (UI Patterns)**
+Todo el diseño se ha estructurado utilizando *Auto Layout* en Figma para asegurar un comportamiento *responsive* fluido en pantallas de escritorio.
+
+* **Top App Bar (Header):** Barra de navegación superior. Actúa como un organismo que agrupa el logotipo (izquierda), el menú de navegación principal (centro) y las acciones rápidas de usuario e idioma (derecha). Los enlaces de texto incluyen interacciones *hover*.
+* **Hero Image con Overlay:** Imagen de cabecera a pantalla completa. Para solucionar la legibilidad del eslogan, se ha implementado un contenedor semitransparente claro (`Primary Container`) que aísla el texto oscuro del fondo fotográfico.
+* **Cards (Tarjetas):** Organismos visuales utilizados para presentar promociones de cafetería y recomendaciones literarias. Agrupan de forma estructurada una imagen descriptiva, título, texto y un botón de acción principal.
+* **Buttons (Botones):** Átomos visuales que permiten a los usuarios realizar acciones clave con un solo clic. Cuentan con un *padding* generoso y bordes ligeramente redondeados para invitar a la interacción ("Pide ahora", "Comprar libro").
+* **Fat Footer:** Pie de página con un color oscuro de contraste que cierra visualmente la estructura de la web, proporcionando enlaces rápidos a acciones de utilidad como el contacto directo y la ubicación física en Google Maps.
 
 ### 3.d Mockup
 ![Método UX](img/mockup.png) 
