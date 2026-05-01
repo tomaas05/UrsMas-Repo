@@ -17,7 +17,10 @@ Actualizado: 14/04/2026
 
 **Descripción:** Plataforma digital diseñada para trasladar la experiencia de "ocio lento" de **La Qarmita** (un espacio híbrido que une cafetería y librería en Granada) al entorno online. Nuestro objetivo es crear una web intuitiva que elimine las fricciones actuales del negocio físico, integrando una carta gastronómica digital accesible, una tienda de libros optimizada con filtros, un sistema de gestión y reserva de eventos culturales, y un foro de reseñas para fomentar la comunidad lectora.
 
-**Logotipo:** ![Logotipo La Qarmita](P3/logo.png) 
+**Logotipo:** 
+
+<img src="P3/logo.png" alt="Logotipo La Qarmita" width="300"/>
+
 *(Logotipo y eslogan en desarrollo para la Práctica 3)*
 
 ### UrsMas Team
@@ -28,7 +31,6 @@ Actualizado: 14/04/2026
 * **Úrsula Barato Berdugo** — [Visitar Perfil :octocat:](https://github.com/UrsulaUGR05)
 
 -----
-
 # Proceso de Diseño 
 
 <br>
