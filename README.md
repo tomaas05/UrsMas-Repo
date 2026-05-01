@@ -334,33 +334,54 @@ Para el desarrollo del prototipo Hi-Fi de **La Qarmita** (versión escritorio), 
 
 **Herramientas y Recursos base**
 * **Material Theme Builder:** Hemos utilizado este plugin para generar nuestra paleta tonal a partir de los colores del *moodboard*, garantizando matemáticamente un contraste óptimo entre fondos y textos para cumplir con los estándares de accesibilidad visual.
-* **Material Symbols:** Empleado para integrar iconografía estandarizada y reconocible (perfil, idioma, ubicación, correo).
+* **Material Symbols:** Empleado para integrar iconografía estandarizada y reconocible (perfil, idioma, ubicación, correo, estrellas de valoración).
+* **Figma Community & Plugins:** Integración de componentes base adaptados (como *Review Cards* o Calendarios) y uso de plugins como *UI Faces* / *Unsplash* para dotar de realismo a los avatares de los usuarios.
 
 **Paleta de Colores (Accesibilidad y Contraste)**
 Se han corregido los problemas de legibilidad del diseño inicial asignando roles estrictos a cada color:
 * **Background / Surface (Tonos Crema - `#F2E0C9`, `#E4D8C6`):** Utilizados como lienzo principal y fondo de las tarjetas para transmitir calidez y la sensación de "ocio lento".
 * **On Background / On Surface (Marrón Oscuro - `#592D23`):** Aplicado a todos los textos e iconos para asegurar una lectura perfecta y sin fatiga visual sobre los fondos claros.
-* **Primary (Burdeos - `#A34C3D`):** Reservado exclusivamente para botones y llamadas a la acción (Call to Action). El texto en su interior utiliza el token `On Primary` (crema claro) para maximizar el contraste.
+* **Primary (Burdeos - `#A34C3D`):** Reservado exclusivamente para botones, llamadas a la acción (Call to Action) y acentos visuales. El texto en su interior utiliza el token `On Primary` (crema claro) para maximizar el contraste.
 
 **Tipografía**
 * **Merriweather (Serif):** Utilizada en títulos y encabezados (`H1`, `H2`) para reforzar la identidad clásica y literaria de la librería.
-* **Nunito (Sans-Serif):** Empleada en los cuerpos de texto y menús de navegación, aportando limpieza y legibilidad en entornos digitales.
+* **Nunito (Sans-Serif):** Empleada en los cuerpos de texto, comentarios del foro y menús de navegación, aportando limpieza y legibilidad en entornos digitales.
 
-**Patrones UI Aplicados (UI Patterns)**
+**Patrones UI Aplicados (UI Patterns) y Comportamiento**
 Todo el diseño se ha estructurado utilizando *Auto Layout* en Figma para asegurar un comportamiento *responsive* fluido en pantallas de escritorio.
 
-* **Top App Bar (Header):** Barra de navegación superior. Actúa como un organismo que agrupa el logotipo (izquierda), el menú de navegación principal (centro) y las acciones rápidas de usuario e idioma (derecha). Los enlaces de texto incluyen interacciones *hover*.
-* **Hero Image con Overlay:** Imagen de cabecera a pantalla completa. Para solucionar la legibilidad del eslogan, se ha implementado un contenedor semitransparente claro (`Primary Container`) que aísla el texto oscuro del fondo fotográfico.
-* **Cards (Tarjetas):** Organismos visuales utilizados para presentar promociones de cafetería y recomendaciones literarias. Agrupan de forma estructurada una imagen descriptiva, título, texto y un botón de acción principal.
-* **Buttons (Botones):** Átomos visuales que permiten a los usuarios realizar acciones clave con un solo clic. Cuentan con un *padding* generoso y bordes ligeramente redondeados para invitar a la interacción ("Pide ahora", "Comprar libro").
-* **Fat Footer:** Pie de página con un color oscuro de contraste que cierra visualmente la estructura de la web, proporcionando enlaces rápidos a acciones de utilidad como el contacto directo y la ubicación física en Google Maps.
+* **Top App Bar (Header) & Fat Footer:** Elementos de navegación persistentes. El Header agrupa logotipo, menú principal y acciones rápidas. El Footer, con alto contraste, cierra la estructura visual y proporciona enlaces de utilidad.
+* **Hero Image con Overlay:** Imagen de cabecera a pantalla completa con un contenedor semitransparente (`Primary Container`) que asegura la legibilidad del texto sobre fondos fotográficos.
+* **Grid Responsivo (Wrap):** Uso avanzado de la función *Wrap* de Auto Layout en los catálogos y el foro para crear cuadrículas (Grids) de tarjetas que saltan de línea y se adaptan automáticamente al ancho disponible de la pantalla.
+* **Búsqueda y Filtros:** Implementación de barras de búsqueda combinadas con "Chips" (etiquetas) para facilitar la exploración y el filtrado en la vista del catálogo de libros.
+* **Formularios y Reseñas (Testimonials):** Cajas de comentarios (Inputs) diseñadas con estados simulados mediante *Variantes* (para mostrar el estado de escritura/clic) y tarjetas de opinión que estructuran avatares, valoraciones y testimonios.
+* **Microinteracciones:** Uso de *Smart Animate* para crear transiciones suaves, destacando los estados *Hover* en las tarjetas de reseña mediante un aumento de la sombra paralela (elevación) para dar feedback visual de interactividad al usuario.
+
 
 ### 3.d Mockup
 ![Método UX](img/mockup.png) 
 ----
 
->>> Consiste en tener un Layout en acción. Un Mockup es un prototipo HTML que permite simular tareas con estilo de IU seleccionado. Muy útil para compartir con stakeholders
+A continuación se presentan las vistas principales del prototipo de Alta Fidelidad (Hi-Fi) desarrolladas para La Qarmita, aplicando el sistema de diseño previamente documentado.
 
+#### 1. Landing Page (Inicio)
+![Vista Landing Page](P3/Landing-page-remodelada.png) <!-- Reemplaza con la ruta real de tu imagen -->
+
+#### 2. Nuestros Libros (Catálogo y Búsqueda)
+![Vista Libros](P3/Libros.png) <!-- Reemplaza con la ruta real de tu imagen -->
+
+#### 3. Eventos (Calendario)
+![Vista Eventos](P3/Eventos.png) <!-- Reemplaza con la ruta real de tu imagen -->
+
+#### 4. Foro (Comunidad y Reseñas)
+![Vista Foro](P3/Foro.png) <!-- Reemplaza con la ruta real de tu imagen -->
+
+<br>
+
+**🔗 Enlace al Prototipo Interactivo:**
+Puedes navegar por la versión interactiva y probar las animaciones, estados *hover* y la navegación entre pantallas directamente en Figma a través del siguiente enlace:
+
+👉 [Haz clic aquí para abrir el Prototipo en Figma](https://www.figma.com/proto/JIRIAuXhJ4yCVDZBU1xFgJ/Frameworks?node-id=19-135&t=hd6Yt14wQIuHIHz9-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=19%3A135)
 
 <br>
 
