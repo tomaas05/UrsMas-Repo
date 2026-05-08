@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Separación extraída de Locofy */
+  width: 100%;
+  max-width: 800px; /* Evita líneas de texto demasiado largas en desktop */
+  box-sizing: border-box;
+}
+
+/* Clases dinámicas de alineación gestionadas por la Prop 'align' */
+.left {
+  text-align: left;
+  align-items: flex-start;
+}
+
+.center {
+  text-align: center;
+  align-items: center;
+  margin: 0 auto; /* Centra el contenedor en sí mismo si está en un grid/flex padre */
+}
+
+/* Estilo del Átomo de Título */
+.title {
+  margin: 0;
+  font-family: 'Merriweather', serif; /* Extraído del diseño original */
+  font-size: 2rem; /* 32px convertidos a rem */
+  font-weight: 800; /* */
+  line-height: 1.2;
+  color: #201b13; /* Asumiendo el color oscuro base de tu paleta */
+}
+
+/* Estilo del Átomo de Párrafo */
+.text {
+  margin: 0;
+  font-family: 'Nunito', sans-serif; /* */
+  font-size: 1rem; /* 16px */
+  font-weight: 400;
+  line-height: 1.5; /* Mejorado para legibilidad (24px) */
+  letter-spacing: 0.15px; /* */
+  color: #7f7667; /* Color de texto secundario rescatado de tus otros componentes */
+}
+
+/* Media Query para pulir la experiencia en móviles: 
+  Reducimos un poco el tamaño del título para que no ocupe toda la pantalla.
+*/
+@media (max-width: 600px) {
+  .title {
+    font-size: 1.5rem; /* 24px */
+  }
+}

@@ -1,0 +1,44 @@
+.pageContainer {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff8f6;
+  font-family: 'Nunito', sans-serif;
+  overflow-x: hidden;
+}
+
+.mainContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Espaciado para la caja de publicación */
+.heroSection {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 2rem;
+  background-color: #fff8f3;
+}
+
+/* Sección de la cuadrícula de comentarios */
+.reviewsSection {
+  padding: 4rem 5%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Grid Responsivo y fluido */
+.reviewsGrid {
+  display: grid;
+  /* Las tarjetas intentarán ocupar 320px, pero se ajustarán si hay más espacio */
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 40px;
+  width: 100%;
+  max-width: 1400px; /* Evita que crezca infinitamente en pantallas gigantes */
+  justify-content: center;
+}

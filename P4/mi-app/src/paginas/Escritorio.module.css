@@ -1,0 +1,46 @@
+/* Contenedor maestro de la página */
+.pageContainer {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff8f6; /* Color de fondo general de tu app */
+  font-family: 'Nunito', sans-serif;
+  overflow-x: hidden;
+}
+
+/* El main empuja al Footer hacia abajo si hay poco contenido */
+.mainContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Espaciado para la sección de texto */
+.textSection {
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center; /* Centra el TextBlock en la pantalla */
+  background-color: #fff8f3; /* Fondo extraído del diseño original */
+}
+
+/* Orquestación de las Tarjetas de Promoción (antiguo .sectionCards) */
+.promoSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 32px;
+  padding: 3rem 5%; /* Padding fluido, mucho mejor que el estático de Locofy */
+  flex-wrap: wrap; /* CRÍTICO: Si las pantallas son pequeñas, una tarjeta baja debajo de la otra */
+}
+
+/* Media Query para asegurar que las tarjetas se comportan bien en móviles */
+@media (max-width: 900px) {
+  .promoSection {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 5%;
+  }
+}

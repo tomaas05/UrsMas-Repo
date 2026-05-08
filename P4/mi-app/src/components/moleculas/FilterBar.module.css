@@ -1,0 +1,52 @@
+.filterContainer {
+  display: flex;
+  align-items: center;
+  gap: 16px; /* */
+  background-color: #fff8f3; /* */
+  border-radius: 20px; /* */
+  padding: 24px; /* */
+  width: 100%;
+  box-sizing: border-box;
+  
+  /* UX Móvil: Permite scroll horizontal fluido si las pestañas no caben */
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  
+  /* Oculta la barra de scroll visualmente para un diseño más limpio */
+  scrollbar-width: none; /* Firefox */
+}
+
+.filterContainer::-webkit-scrollbar {
+  display: none; /* Chrome, Safari y Opera */
+}
+
+/* Átomo interno: Pestaña / Botón */
+.tab {
+  background: transparent;
+  border: none;
+  border-radius: 16px; /* */
+  padding: 10px 16px; /* Aumentado ligeramente en los lados para mejor Touch Target */
+  
+  font-family: 'Nunito', sans-serif; /* */
+  font-size: 0.875rem; /* 14px */
+  font-weight: 500; /* */
+  line-height: 20px; /* */
+  letter-spacing: 0.1px; /* */
+  color: #201b13; /* Estado inactivo */
+  
+  cursor: pointer;
+  white-space: nowrap; /* Evita que el texto del botón se rompa en dos líneas */
+  transition: all 0.2s ease-in-out;
+}
+
+/* Estado Activo (reemplaza a la clase .tab1 de Locofy) */
+.tab.active {
+  background-color: #904b3e; /* */
+  color: #fff; /* */
+  font-weight: 600; /* Resalta un poco más la pestaña activa */
+}
+
+/* Feedback visual para pestañas inactivas */
+.tab:hover:not(.active) {
+  background-color: rgba(144, 75, 62, 0.1);
+}

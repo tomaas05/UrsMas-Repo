@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* En móvil, el filtro bajará si no cabe */
+  gap: 16px;
+  background-color: #fff8f6;
+  padding: 24px 5%; /* Fluid padding en lugar del estricto 30px 64px */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* El input real (reemplaza los múltiples divs de Locofy) */
+.searchWrapper {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 100px;
+  padding: 0 16px;
+  height: 56px;
+  flex: 1; /* Ocupa el espacio disponible */
+  min-width: 250px;
+}
+
+.searchIcon {
+  font-size: 1.2rem;
+  color: #904b3e;
+  margin-right: 12px;
+}
+
+.searchInput {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.125rem;
+  color: #231918;
+  outline: none;
+}
+
+.searchInput::placeholder {
+  color: #a09a95;
+}
+
+/* El botón de Filtros */
+.filterChip {
+  height: 56px;
+  background-color: #904b3e;
+  border: none;
+  border-radius: 100px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  transition: opacity 0.2s ease, transform 0.1s ease;
+}
+
+.filterChip:hover {
+  opacity: 0.9;
+}
+
+.filterChip:active {
+  transform: scale(0.96);
+}
+
+.chipText {
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+}

@@ -1,0 +1,57 @@
+.heroContainer {
+  position: relative;
+  width: 100%;
+  min-height: 350px; /* Cambiamos height fijo por min-height fluido */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 8px; /* Opcional: suaviza las esquinas del banner */
+}
+
+/* Imagen de fondo cubriendo todo el espacio disponible */
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Caja de texto superpuesta */
+.overlayBox {
+  position: relative;
+  z-index: 1;
+  background-color: rgba(242, 224, 201, 0.8); /* Un poco más opaco para asegurar la legibilidad del texto */
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  margin: 1rem; /* Margen de seguridad para que no toque los bordes en móvil */
+  max-width: 90%; /* Fluido, nunca más ancho que la pantalla */
+  text-align: center;
+  
+  /* Toque de UI Senior: backdrop-filter difumina ligeramente la foto detrás de la caja */
+  backdrop-filter: blur(4px); 
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.tagline {
+  margin: 0;
+  color: #6f4e38; /* Rescatado de tu diseño */
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem; /* 24px aprox */
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+/* Responsividad para móviles */
+@media (max-width: 600px) {
+  .heroContainer {
+    min-height: 280px; /* Un poco menos alto en pantallas pequeñas */
+  }
+  
+  .tagline {
+    font-size: 1.25rem; /* El texto se ajusta para no saturar el móvil */
+  }
+}

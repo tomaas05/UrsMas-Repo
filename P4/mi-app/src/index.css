@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;0,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SF+Pro+Rounded:ital,wght@0,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SF+Pro:ital,wght@0,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500&display=swap');
+
+body {
+  	margin: 0; line-height: normal;
+}
+
+
+
+body {
+  margin: 0; 
+  padding: 0;
+  line-height: normal;
+  font-family: 'Nunito', sans-serif;
+  background-color: #fff8f6;
+}

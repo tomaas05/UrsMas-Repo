@@ -1,0 +1,71 @@
+.cardContainer {
+  background-color: #ede1cf; /* */
+  border-radius: 16px; /*[cite: 19] */
+  display: flex;
+  flex-direction: row; /* Layout horizontal de Figma[cite: 19] */
+  padding: 24px; /*[cite: 19] */
+  gap: 20px;
+  overflow: hidden;
+  max-width: 600px; /* Evita que crezca demasiado en desktop */
+  width: 100%;
+  box-sizing: border-box;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.withShadow {
+  box-shadow: 0px 8px 14px 10px rgba(0, 0, 0, 0.25); /* Variante 2[cite: 19] */
+}
+
+.image {
+  width: 200px; /*[cite: 19] */
+  height: auto;
+  aspect-ratio: 1 / 1;
+  border-radius: 5px; /*[cite: 19] */
+  object-fit: cover; /*[cite: 19] */
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*[cite: 19] */
+  justify-content: center; /*[cite: 19] */
+  gap: 16px; /*[cite: 19] */
+  text-align: center;
+  color: #904b3e; /*[cite: 19] */
+}
+
+.promoTag {
+  margin: 0;
+  font-size: 1.375rem; /* 22px[cite: 19] */
+  font-weight: 600; /*[cite: 19] */
+  line-height: 28px; /*[cite: 19] */
+}
+
+.productTitle {
+  margin: 0;
+  font-family: 'Merriweather', serif; /*[cite: 19] */
+  font-size: 1.25rem; /* 20px[cite: 19] */
+  font-weight: 800; /*[cite: 19] */
+  line-height: 32px; /*[cite: 19] */
+}
+
+.description {
+  margin: 0;
+  font-size: 0.875rem; /* 14px[cite: 19] */
+  font-weight: 500; /*[cite: 19] */
+  line-height: 20px; /*[cite: 19] */
+  letter-spacing: 0.1px; /*[cite: 19] */
+}
+
+/* RESPONSIVE: En móviles la imagen se pone arriba */
+@media (max-width: 600px) {
+  .cardContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .image {
+    width: 100%;
+    max-height: 250px;
+  }
+}

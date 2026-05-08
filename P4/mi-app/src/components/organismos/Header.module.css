@@ -1,0 +1,46 @@
+.header {
+  width: 100%;
+  background-color: #904b3e; /*[cite: 14] */
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /*[cite: 14] */
+  flex-wrap: wrap; /*[cite: 14] */
+  padding: 10px 20px; /* Mejoramos el padding general fusionando el gap[cite: 14] */
+  box-sizing: border-box; /*[cite: 14] */
+}
+
+/* El átomo del logo (podría extraerse a un componente si se reutiliza mucho) */
+.logoIcon {
+  width: 64px; /*[cite: 14] */
+  height: auto;
+  object-fit: cover; /*[cite: 14] */
+  cursor: pointer; /*[cite: 14] */
+  transition: opacity 0.2s ease;
+}
+
+.logoIcon:hover {
+  opacity: 0.8;
+}
+
+/* Contenedor de la navegación */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center; /*[cite: 14] */
+  gap: 32px; /*[cite: 14] */
+  flex-wrap: wrap; /* UX: Permite que los links bajen de línea si la pantalla se estrecha */
+}
+
+/* Contenedor de las acciones (Idioma y Perfil) */
+.acciones {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Alineado a la derecha */
+  gap: 16px; /* Aumentado ligeramente de 10px[cite: 14] para que no se toquen en móvil */
+}
+
+/* 
+  ¡ATENCIÓN! 
+  Se han eliminado las clases .navItem, .carta, .iconProfile y .accountCircleIcon[cite: 14]. 
+  Estas responsabilidades ya están cubiertas por NavItem.module.css, LanguageIcon.module.css y ProfileIcon.module.css.
+*/

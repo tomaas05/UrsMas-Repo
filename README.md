@@ -387,9 +387,75 @@ Puedes navegar por la versión interactiva y probar las animaciones, estados *ho
 
 <br>
 
-## Paso 4. Pruebas de Evaluación 
+## Paso 4. Exportación y Documentación 
 
-### 4.a Reclutamiento de usuarios 
+### 4.a Exportación a HTML/React
+![Método UX](img/usabilityReview.png) 
+----
+
+El objetivo de esta fase ha sido transformar los diseños visuales y prototipos elaborados en Figma a un proyecto web funcional construido con **React (Vite, JavaScript y CSS Modules)**.
+
+Para llevar a cabo esta tarea, hemos definido un flujo de trabajo iterativo asistido por Inteligencia Artificial, priorizando la escalabilidad y las buenas prácticas de desarrollo:
+
+1. **Exportación inicial con Locofy:** Se utilizó el plugin *Locofy Lightning* en Figma para generar una primera base de código React a partir de los diseños.
+2. **Refactorización con IA Generativa (Gemini):** Dado que las herramientas automáticas (diseño a código) suelen generar código monolítico, redundante y poco semántico, se utilizó IA Generativa asumiendo el rol de un Desarrollador Senior para realizar una refactorización profunda.
+3. **Aplicación de Diseño Atómico (Atomic Design):** El código crudo de Locofy se desensambló y reconstruyó siguiendo una arquitectura estricta de Diseño Atómico. Se crearon Átomos (`PrimaryButton`), Moléculas (`BookCard`, `PromoCard`), Organismos (`Header`, `BookGrid`) y Páginas.
+4. **Mejoras UX/UI en código:** Se eliminaron las posiciones absolutas de Figma, transformando los layouts en estructuras fluidas y 100% responsivas mediante *CSS Grid* y *Flexbox*, además de añadir interactividad con estado de React (`useState`).
+
+>>> **Nota sobre la ubicación del código:** Todo el código fuente de la aplicación React generada en este paso se encuentra alojado en el directorio `P4/app/` de este repositorio.
+
+#### Resultado Visual de las Páginas Ensambladas
+
+*(Añade a continuación las capturas de pantalla de tu aplicación corriendo en el navegador)*
+
+<div align="center">
+  <img src="P4/Landing-react.png" width="800" alt="Landing Page - Escritorio">
+  <br>
+  <i>Página principal: Escritorio (Landing Page)</i>
+</div>
+<br>
+
+<div align="center">
+  <img src="P4/Libros-react.png" width="800" alt="Página - Nuestros Libros">
+  <br>
+  <i>Página del catálogo: Nuestros Libros</i>
+</div>
+<br>
+
+<div align="center">
+  <img src="P4/Eventos-react.png" width="800" alt="Página - Calendario de Eventos">
+  <br>
+  <i>Página de la comunidad: Calendario de Eventos</i>
+</div>
+<br>
+
+<div align="center">
+  <img src="P4/Foro-react.png" width="800" alt="Página - Foro de Comentarios">
+  <br>
+  <i>Página interactiva: Foro de Comentarios</i>
+</div>
+<br>
+
+
+### 4.b Documentación con Storybook
+![Método UX](img/usabilityReview.png)
+----
+
+Dado que hemos construido nuestra interfaz basándonos en la metodología de **Diseño Atómico**, la documentación visual de los componentes resultaría el paso lógico y fundamental para asegurar el mantenimiento del sistema de diseño (Design System).
+
+La herramienta estándar en la industria para este propósito es **Storybook**. El procedimiento teórico planificado para su implementación consistía en:
+1. Inicializar el entorno de Storybook dentro de nuestro proyecto Vite/React en la carpeta `P4/app/`.
+2. Crear historias (`.stories.jsx`) para documentar visualmente nuestros componentes "puros" (Átomos y Moléculas), aislándolos de la lógica de negocio de las páginas.
+3. Documentar las diferentes *props* y estados de cada componente (por ejemplo, el estado por defecto y el estado deshabilitado de un `PrimaryButton`, o las variantes con y sin sombra de una `PromoCard`).
+
+**Justificación de no implementación:**
+A pesar de tener los componentes refactorizados y preparados para ser integrados en este entorno, **debido a limitaciones de tiempo y a los ajustes en la programación temporal de la asignatura**, se ha acordado prescindir de la implementación técnica de Storybook en esta entrega. El esfuerzo se ha concentrado íntegramente en asegurar la calidad, modularidad y semántica del código React alojado en `P4/app/`.
+
+<br>
+
+## Paso 5. Pruebas de Evaluación 
+
+### 5.a Reclutamiento de usuarios 
 ![Método UX](img/usability-testing.png)
 -----
 
@@ -406,7 +472,7 @@ Puedes navegar por la versión interactiva y probar las animaciones, estados *ho
 | User4's name  | H / 18   | Estudiante  | Media       | Racional     | Web        | B 
 
 
-### 4.b Diseño de las pruebas 
+### 5.b Diseño de las pruebas 
 ![Método UX](img/usability-testing.png) 
 -----
 
@@ -414,7 +480,7 @@ Puedes navegar por la versión interactiva y probar las animaciones, estados *ho
 
 
 
-### 4.c Cuestionario SUS
+### 5.c Cuestionario SUS
 ![Método UX](img/Survey.png) 
 ----
 
@@ -424,13 +490,13 @@ Para más información, consultar aquí sobre la [metodología SUS](https://cui.
 >>> Adjuntar en la carpeta P4/ el excel resultante y describa aquí la valoración personal de los resultados 
 
 
-### 4.d A/B Testing
+### 5.d A/B Testing
 ![Método UX](img/ABtesting.png) 
 -----
 
 >>> Los resultados de un A/B testing con 3 pruebas y 2 casos o alternativas daría como resultado una tabla de 3 filas y 2 columnas, además de un resultado agregado global. Especifique con claridad el resultado: qué caso es más usable, A o B?
 
-### 4.e Aplicación del método Eye Tracking 
+### 5.e Aplicación del método Eye Tracking 
 ![Método UX](img/eye-tracking.png)
 ----
 
@@ -443,7 +509,7 @@ Para más información, consultar aquí sobre la [metodología SUS](https://cui.
 >>> gazerecorder en versión de pruebas puede estar limitada a 3 usuarios para generar mapa de calor (crédito > 0 para que funcione) 
 
 
-### 4.f Usability Report de B
+### 5.f Usability Report de B
 ![Método UX](img/usability-report.png) 
 -----
 
@@ -456,24 +522,7 @@ Para más información, consultar aquí sobre la [metodología SUS](https://cui.
 
 <br>
 
-## Paso 5. Exportación y Documentación 
 
-
-### 5.a Exportación a HTML/React
-![Método UX](img/usabilityReview.png) 
-----
-
->>> Breve descripción de esta tarea. Las evidencias de este paso quedan subidas a P5/
-
-
-### 5.b Documentación con Storybook
-![Método UX](img/usabilityReview.png)
-----
-
->>> Breve descripción de esta tarea. Las evidencias de este paso quedan subidas a P5/
-
-
-<br>
 
 ## Conclusiones finales & Valoración de las prácticas
 

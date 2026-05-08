@@ -1,0 +1,75 @@
+.reviewWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 320px; /* Ancho sugerido para tarjetas de review */
+}
+
+.card {
+  border-radius: 16px; /*[cite: 20] */
+  background-color: #ede1cf; /*[cite: 20] */
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px 24px; /*[cite: 20] */
+  gap: 20px; /*[cite: 20] */
+  min-height: 400px; /*[cite: 20] */
+}
+
+.stars {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px; /*[cite: 20] */
+}
+
+.iconStar {
+  height: 24px; /*[cite: 20] */
+  width: 24px; /*[cite: 20] */
+}
+
+.vectorIcon {
+  width: 100%;
+  height: 100%;
+}
+
+.review {
+  margin: 0;
+  letter-spacing: 0.5px; /*[cite: 20] */
+  line-height: 24px; /*[cite: 20] */
+  font-family: 'Nunito', sans-serif; /*[cite: 20] */
+  color: #201b13; /*[cite: 20] */
+}
+
+.user {
+  display: flex;
+  flex-direction: row; /* Cambiado a row para mejor UX que la columna de Locofy[cite: 20] */
+  align-items: center;
+  gap: 16px; /*[cite: 20] */
+}
+
+.avatarIcon {
+  width: 56px; /*[cite: 20] */
+  height: 56px; /*[cite: 20] */
+  border-radius: 50%; /* Redondeado perfecto basado en 28px de radio[cite: 20] */
+  object-fit: cover; /*[cite: 20] */
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px; /*[cite: 20] */
+}
+
+.name {
+  font-family: 'Merriweather', serif; /*[cite: 20] */
+  font-size: 20px; /*[cite: 20] */
+  line-height: 1.2;
+  font-weight: 800; /*[cite: 20] */
+}
+
+.fecha {
+  font-size: 14px; /*[cite: 20] */
+  letter-spacing: 0.25px; /*[cite: 20] */
+  line-height: 20px; /*[cite: 20] */
+  font-family: 'Nunito', sans-serif; /*[cite: 20] */
+}

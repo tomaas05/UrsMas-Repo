@@ -1,0 +1,45 @@
+.container {
+  background-color: #fff8f3; /* */
+  border-radius: 16px; /*[cite: 22] */
+  padding: 24px; /*[cite: 22] */
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /*[cite: 22] */
+  width: 100%;
+  max-width: 800px; /* Mantenemos el límite del diseño original[cite: 22] */
+  box-sizing: border-box;
+}
+
+.title {
+  margin: 0;
+  font-family: 'Merriweather', serif; /*[cite: 22] */
+  font-size: 1.75rem; /* 28px[cite: 22] */
+  line-height: 36px; /*[cite: 22] */
+  color: #000; /*[cite: 22] */
+}
+
+.textarea {
+  width: 100%;
+  height: 120px; /*[cite: 22] */
+  border-radius: 8px; /*[cite: 22] */
+  border: 1px solid #7f7667; /* Estado predeterminado[cite: 22] */
+  padding: 13px 16px; /*[cite: 22] */
+  font-family: 'Nunito', sans-serif; /*[cite: 22] */
+  font-size: 1rem; /* 16px[cite: 22] */
+  color: #7f7667; /*[cite: 22] */
+  background: transparent;
+  resize: none;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+/* Reemplaza la lógica de .inputTexto2 de Locofy[cite: 22] */
+.textarea.filled, .textarea:focus {
+  border-color: #904b3e; /* Color de la variante "escrito"[cite: 22] */
+  color: #201b13; /*[cite: 22] */
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: flex-end; /* Alineación a la derecha del contenedor[cite: 22] */
+}

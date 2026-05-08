@@ -1,0 +1,100 @@
+.calendarContainer {
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 16px;
+  padding: 24px;
+  width: 100%;
+  max-width: 400px; /* Tamaño ideal para un widget de calendario */
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  color: #1e1e1e;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.calendarHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.selectors {
+  display: flex;
+  gap: 12px;
+}
+
+.select {
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.iconButton {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 8px;
+  color: #904b3e; /* Color de tu marca */
+}
+
+/* La magia de CSS Grid para demoler las "Rows" de Locofy */
+.table {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.thead, .tbody {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* 7 columnas exactas para los 7 días */
+  gap: 4px;
+  text-align: center;
+}
+
+.dayName {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #757575;
+  padding-bottom: 8px;
+}
+
+.emptyDay {
+  height: 40px;
+}
+
+.dayButton {
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  background-color: transparent;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2c2c2c;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dayButton:hover {
+  background-color: #f5f5f5;
+}
+
+/* El estilo de los días con evento destacado */
+.eventDay {
+  background-color: #904b3e; /* Rescatado de tu paleta principal */
+  color: #ffffff;
+  box-shadow: 0 4px 8px rgba(144, 75, 62, 0.4);
+}
+
+.eventDay:hover {
+  background-color: #733429;
+}

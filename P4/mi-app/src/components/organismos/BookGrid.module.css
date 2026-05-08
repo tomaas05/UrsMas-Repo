@@ -1,0 +1,24 @@
+.gridSection {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 40px 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.sectionTitle {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+  color: #904b3e;
+  text-align: left;
+}
+
+/* MAGIA SENIOR: CSS Grid responsivo sin Media Queries complejas */
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 40px;
+  width: 100%;
+}

@@ -1,0 +1,41 @@
+.primaryButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* Ajuste UX: Mejoramos el padding de 10px[cite: 12] para garantizar un buen Touch Target en móvil */
+  padding: 0.75rem 1.5rem;
+  min-height: 48px; 
+  
+  background-color: #904b3e; /*[cite: 12] */
+  border: none;
+  border-radius: 20px; /*[cite: 12] */
+  cursor: pointer;
+  
+  /* Transiciones suaves para la interacción */
+  transition: background-color 0.2s ease-in-out, transform 0.1s ease;
+  
+  /* Tipografía rescatada de .pideAhora[cite: 12] */
+  color: #fff; /*[cite: 12] */
+  font-size: 0.875rem; /* 14px convertido a rem[cite: 12] */
+  font-weight: 600; /* Promediamos para evitar el uso del tag <b>[cite: 13] */
+  letter-spacing: 0.1px; /*[cite: 12] */
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+/* Reemplaza a .propiedad1variante2[cite: 12] */
+.primaryButton:hover {
+  background-color: #733429; /*[cite: 12] */
+}
+
+.primaryButton:active {
+  transform: scale(0.98); /* Feedback táctil adicional */
+}
+
+/* Accesibilidad y manejo de estado deshabilitado */
+.primaryButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  transform: none;
+}

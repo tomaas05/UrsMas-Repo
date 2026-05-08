@@ -1,0 +1,26 @@
+.footer {
+  width: 100%;
+  background-color: #904b3c; /* Rescatado del diseño original[cite: 16] */
+  
+  /* Orquestación Flexbox */
+  display: flex;
+  align-items: center; /* Cambiado de flex-end[cite: 16] a center para mejor alineación vertical */
+  justify-content: space-between; /*[cite: 16] */
+  flex-wrap: wrap; /* CRÍTICO: Permite que los botones bajen de línea en pantallas pequeñas */
+  
+  /* Espaciados responsivos */
+  gap: 20px; /*[cite: 16] */
+  padding: 1.5rem 2rem; /* Adaptación del 15px 70px[cite: 16] a medidas relativas y más amigables con móvil */
+  box-sizing: border-box; /*[cite: 16] */
+}
+
+/* 
+  Si en pantallas muy pequeñas (móviles) quieres que los botones se centren, 
+  puedes añadir una Media Query muy sencilla aquí:
+*/
+@media (max-width: 600px) {
+  .footer {
+    justify-content: center;
+    padding: 1.5rem 1rem;
+  }
+}
