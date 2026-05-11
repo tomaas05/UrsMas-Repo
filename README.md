@@ -455,72 +455,78 @@ A pesar de tener los componentes refactorizados y preparados para ser integrados
 
 ## Paso 5. Pruebas de Evaluación 
 
-### 5.a Reclutamiento de usuarios 
+## Paso 4. Pruebas de Evaluación 
+
+### 4.a Reclutamiento de usuarios 
 ![Método UX](img/usability-testing.png)
 -----
 
->>> Breve descripción del caso asignado (llamado Caso-B) con enlace al repositorio Github
->>> Tabla y asignación de personas ficticias (o reales) a las pruebas. Exprese las ideas de posibles situaciones conflictivas de esa persona en las propuestas evaluadas. Mínimo 4 usuarios: asigne 2 al Caso A y 2 al caso B.
+El caso B corresponde a la propuesta de rediseño web del equipo **Errores404** para **La Qarmita**. Su objetivo principal es solucionar la fragmentación digital actual del local (que divide su contenido entre un blog antiguo y una web limitada) y transformarlo en un verdadero hub cultural digital. 
+
+A diferencia de nuestra propuesta (Caso A), el Caso B pone un fuerte énfasis en la implementación de un **sistema de reservas integrado, e-commerce para café/libros y un sistema de fidelización por recompensas** para atraer a su público objetivo (estudiantes, amantes del arte y creadores). Su diseño visual opta por un enfoque de "galería" minimalista y editorial.
+
+#### Usuarios de muestra para tests (Muestra representativa)
+
+Se reclutarán 10 participantes en total (5 por caso), segmentados según los motivadores del ScopeCanvas:
+
+| Usuarios | Sexo/Edad | Ocupación | Exp.TIC | Personalidad | Plataforma | Caso | Posibles situaciones conflictivas |
+| -------- | --------- | --------- | ------- | ------------ | ---------- | ---- | --------------------------------- |
 
 
 
-| Usuarios | Sexo/Edad     | Ocupación   |  Exp.TIC    | Personalidad | Plataforma | Caso
-| ------------- | -------- | ----------- | ----------- | -----------  | ---------- | ----
-| User1's name  | H / 18   | Estudiante  | Media       | Introvertido | Web.       | A 
-| User2's name  | H / 18   | Estudiante  | Media       | Timido       | Web        | A 
-| User3's name  | M / 35   | Abogado     | Baja        | Emocional    | móvil      | B 
-| User4's name  | H / 18   | Estudiante  | Media       | Racional     | Web        | B 
 
-
-### 5.b Diseño de las pruebas 
+### 4.b Diseño de las pruebas 
 ![Método UX](img/usability-testing.png) 
 -----
 
->>> Planifique qué pruebas se van a desarrollar. ¿En qué consisten? ¿Se hará uso del checklist de la P1?
+Las pruebas se desarrollarán de forma remota utilizando **Maze** (métricas de navegación y tareas) y **GazeMapping** (Eye Tracking), basándonos en las acciones clave definidas las propuestas de ambos proyectos. En ambos casos estudiaremos dos páginas interesantes de cada proyecto.
 
+#### 1. A/B Testing (Maze)
+Se diseñarán tareas equivalentes en Maze para medir:
+- Facilidad para navegar por la página.
+- Tasa de éxito por las tareas propuestas.
+- Satisfacción general y comentarips cualitativos.
 
+#### 2. Test SUS (System Usability Scale)
+Cuestionario estándar de 10 preguntas al finalizar para comparar la usabilidad percibida entre la estructura cálida/bloques (Caso A) y la estructura editorial/minimalista (Caso B).
 
-### 5.c Cuestionario SUS
-![Método UX](img/Survey.png) 
-----
-
->>> Como uno de los test para la prueba A/B testing, usaremos el **Cuestionario SUS** que permite valorar la satisfacción de cada usuario con el diseño utilizado (casos A o B). Para calcular la valoración numérica y la etiqueta linguistica resultante usamos la [hoja de cálculo](https://github.com/mgea/DIU19/blob/master/Cuestionario%20SUS%20DIU.xlsx). Previamente conozca en qué consiste la escala SUS y cómo se interpretan sus resultados
-http://usabilitygeek.com/how-to-use-the-system-usability-scale-sus-to-evaluate-the-usability-of-your-website/)
-Para más información, consultar aquí sobre la [metodología SUS](https://cui.unige.ch/isi/icle-wiki/_media/ipm:test-suschapt.pdf)
->>> Adjuntar en la carpeta P4/ el excel resultante y describa aquí la valoración personal de los resultados 
-
-
-### 5.d A/B Testing
+#### 3. Eye Tracking (Gaze Recorder)
+Prueba de exploración libre (20 segundos) seguida de tareas dirigidas. Mediremos mapas de calor (Heatmaps) y rutas de mirada para analizar cómo interactúan con el entorno propuesto por cada grupo.
+### 4.c A/B Testing
 ![Método UX](img/ABtesting.png) 
 -----
 
->>> Los resultados de un A/B testing con 3 pruebas y 2 casos o alternativas daría como resultado una tabla de 3 filas y 2 columnas, además de un resultado agregado global. Especifique con claridad el resultado: qué caso es más usable, A o B?
+#### Test A – La Qarmita (Nuestra propuesta)
 
-### 5.e Aplicación del método Eye Tracking 
-![Método UX](img/eye-tracking.png)
-----
+**Landing Page** y **Foro de Comentarios**
 
->>> Indica cómo se diseña el experimento y se reclutan los usuarios. Explica la herramienta / uso de gazerecorder.com u otra similar. Aplíquese únicamente al caso B.
-
-
-![experimento](img/experimentoET.png)  
->>> Cambiar esta img por una de vuestro experimento. El recurso deberá estar subido a la carpeta P4/  
-
->>> gazerecorder en versión de pruebas puede estar limitada a 3 usuarios para generar mapa de calor (crédito > 0 para que funcione) 
+**Tareas:**
+1. Localizar e identificar cómo podríamos iniciar sesión en la web o cambiar el idioma.
+2. Explorar el menú para conocer la información de la promoción de comida o recomendación literaria.
+3. Dejar o buscar una reseña en el foro/comunidad.
+4. Ver fácilmente quién tiene mejor o peor opinión del lugar.
 
 
-### 5.f Usability Report de B
-![Método UX](img/usability-report.png) 
 -----
 
->>> Añadir report de usabilidad para práctica B (la de los compañeros) aportando resultados y valoración de cada debilidad de usabilidad. 
->>> Enlazar aqui con el archivo subido a P4/ que indica qué equipo evalua a qué otro equipo.
+#### Test B – Proyecto Errores404 (Propuesta Alternativa)
 
->>> Complementad el Case Study en su Paso 4 con una Valoración personal del equipo sobre esta tarea
+**Landing Page** y **Agenda**
 
+**Tareas (Basadas en su Visión ):**
+1. Indagar en las comunidades que atrae el negocio.
+2. Comprar o buscar información sobre novedades del café de especialidad en grano.
+3. Localizar la información sobre los eventos.
+4. Uso de herramientas (filtros, busqueda...) para ver eventos de manera detallada.
+5. Encontrar la vía de contacto para proponer una exposición de arte y encontrarlos en redes sociales.
 
+### 5.d Cuestionario SUS 
 
-<br>
+|  | Preguntas | U1| U2 | U3 | U4 | U5 | U6 | U7 | U8 | U9 | U10 |
+|  | Preguntas | U1| U2 | U3 | U4 | U5 | U6 | U7 | U8 | U9 | U10 |
+
+### 5.e Aplicación del método Eye Tracking 
+
 
 
 
