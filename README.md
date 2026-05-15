@@ -455,9 +455,7 @@ A pesar de tener los componentes refactorizados y preparados para ser integrados
 
 ## Paso 5. Pruebas de Evaluación 
 
-## Paso 4. Pruebas de Evaluación 
-
-### 4.a Reclutamiento de usuarios 
+### 5.a Reclutamiento de usuarios 
 ![Método UX](img/usability-testing.png)
 -----
 
@@ -470,12 +468,20 @@ A diferencia de nuestra propuesta (Caso A), el Caso B pone un fuerte énfasis en
 Se reclutarán 10 participantes en total (5 por caso), segmentados según los motivadores del ScopeCanvas:
 
 | Usuarios | Sexo/Edad | Ocupación | Exp.TIC | Personalidad | Plataforma | Caso | Posibles situaciones conflictivas |
-| -------- | --------- | --------- | ------- | ------------ | ---------- | ---- | --------------------------------- |
+| U1 - Julieta | M/20 | Estudiante | Baja | Introvertida | ordenador | A | Puede saltarsse pasos o no fijarse en los detalles |
+| U2 - Estefania | M/21 | Estudiante | Alta | Extrovertida | ordenador | B | Puede cansarse si ve demasiado texto |
+| U3 - Alejandro | H/20 | Estudiante | Alta | Racional | ordenador | A | Puede rechazar el sistema si los pasos no siguen un orden lógico |
+| U4 - Juan Atonio | H/71 | Jubilado | Baja | Racional | ordenador | B | Puede perderse si la interfaz está muy sobrecargada |
+| U5 - Yolanda| M/61 | Psicóloga | Baja | Extrovertida | ordenador | A | Puede distraerse en interfaces demasiado complejas |
+| U6 - Paula| M/21 | Estudiante | Baja | Extrovertida | ordenador | B | Puede abandonar la página web si el proceso es monótono |
+| U7 - Jose Antonio | H/20 | Estudiante | Baja | Introvertida | ordenador | A | Puede confundirse si no hay indicaciones claras |
+| U8 - Jose Luis| H/21 | Estudiante | Alta | Racional | ordenador | B | Puede frustrarse si el sistema es lento o ineficiente |
+| U9 - Lucas| H/21 | Estudiante | Alta | Extrovertida | ordenador | A | Se impacienta si el flujo es largo o poco claro |
+| U10 - Ruth | M/23 | Estudiante | Alta | Extrovertida | ordenador | B | Puede abandonar la web si no le resulta atrayente |
 
 
 
-
-### 4.b Diseño de las pruebas 
+### 5.b Diseño de las pruebas 
 ![Método UX](img/usability-testing.png) 
 -----
 
@@ -492,7 +498,8 @@ Cuestionario estándar de 10 preguntas al finalizar para comparar la usabilidad 
 
 #### 3. Eye Tracking (Gaze Recorder)
 Prueba de exploración libre (20 segundos) seguida de tareas dirigidas. Mediremos mapas de calor (Heatmaps) y rutas de mirada para analizar cómo interactúan con el entorno propuesto por cada grupo.
-### 4.c A/B Testing
+
+### 5.c A/B Testing
 ![Método UX](img/ABtesting.png) 
 -----
 
@@ -506,7 +513,13 @@ Prueba de exploración libre (20 segundos) seguida de tareas dirigidas. Mediremo
 3. Dejar o buscar una reseña en el foro/comunidad.
 4. Ver fácilmente quién tiene mejor o peor opinión del lugar.
 
+### Feedback recogido:
 
+  * Opinión general media: 4.6 / 7 
+
+  * Facilidad notable para identificar la jerarquía visual de las promociones y reseñas, aunque los usuarios con menos experiencia (U1, U7) dudaron ante la iconografía del encabezado.
+
+  * Valoración estética alta gracias al uso de imágenes reales que generan confianza y una estructura muy limpia.
 -----
 
 #### Test B – Proyecto Errores404 (Propuesta Alternativa)
@@ -520,13 +533,144 @@ Prueba de exploración libre (20 segundos) seguida de tareas dirigidas. Mediremo
 4. Uso de herramientas (filtros, busqueda...) para ver eventos de manera detallada.
 5. Encontrar la vía de contacto para proponer una exposición de arte y encontrarlos en redes sociales.
 
+### Feedback recogido:
+
+  * Opinión general media: 4.8 / 7 
+
+  * Alta eficiencia en la búsqueda de eventos gracias a los filtros avanzados, aunque los usuarios más racionales (U8) demandaron una carga de datos aún más rápida.
+
+  * Diseño valorado como "profesional y moderno", aunque usuarios de mayor edad (U4) percibieron cierta saturación de información en las secciones de texto denso.
+
+### Preguntas
+
+| | Preguntas | U1 | U2 | U3 | U4 | U5 | U6 | U7 | U8 | U9 | U10 |
+| 1 | ¿Cómo calificarías tu experiencia general usando esta app? | 6 | 5 | 5 | 5 | 4 | 4 | 3 | 6 | 5 | 5 |
+| 2 | ¿Encontraste lo que buscabas fácilmente? | 5 | 5 | 4 | 4 | 3 | 5 | 2 | 5 | 4 | 4 |
+| 3 | ¿Recomendarías esta app a otras personas? | 5 | 4 | 5 | 3 | 4 | 3 | 3 | 4 | 5 | 4 |
+| 4 | ¿La aplicación te resultó atractiva visualmente? | 6 | 4 | 4 | 5 | 5 | 6 | 4 | 5 | 5 | 6 |
+
+### Conclusión del A/B Testing
+
+A partir de los resultados obtenidos, podemos concluir que ambos casos presentan fortalezas distintas según el perfil del usuario. Sin embargo, el Caso A (La Qarmita) destaca por una curva de aprendizaje más suave para usuarios con experiencia TIC baja, gracias a su interfaz basada en bloques visuales claros y un foro intuitivo.
+
+Por otro lado, el Caso B (Errores404) resultó ser más robusto para usuarios que buscan funcionalidades avanzadas (filtros, agenda detallada y segmentación por comunidades), obteniendo una media de satisfacción general ligeramente más consistente entre los perfiles técnicos.
+
+En resumen, mientras que el Caso A es superior en conexión emocional y simplicidad, el Caso B ofrece una herramienta de gestión de eventos más potente. 
+
 ### 5.d Cuestionario SUS 
 
-|  | Preguntas | U1| U2 | U3 | U4 | U5 | U6 | U7 | U8 | U9 | U10 |
-|  | Preguntas | U1| U2 | U3 | U4 | U5 | U6 | U7 | U8 | U9 | U10 |
+### Usuarios Test A 
+| | Preguntas | U1 | U3 | U5 | U7 | U9 |
+| 1 | Creo que me gustará visitar con frecuencia este website | 4 | 5 | 3 | 3 | 4 |
+| 2 | Encontré el website innecesariamente complejo | 2 | 1 | 3 | 3 | 1 |
+| 3 | Pensé que era fácil utilizar este website | 4 | 5 | 3 | 4 | 5 |
+| 4 | Creo que necesitaría del apoyo de un experto para recorrer el website | 2 | 1 | 2 | 1 | 1 |
+| 5 | Encontré las funciones del website bastante bien integradas | 4 | 5 | 4 | 3 | 5 |
+| 6 | Pensé que había demasiada inconsistencia en el website | 2 | 2 | 2 | 3 | 1 |
+| 7 | Imagino que la mayoría de las personas aprenderían muy rápidamente a utilizar el website | 4 | 5 | 4 | 3 | 4 |
+| 8 | Encontré el website muy grande al recorrerlo | 2 | 1 | 3 | 3 | 1 |
+| 9 | Me sentí muy confiado en el manejo del website | 3 | 5 | 3 | 3 | 5 |
+| 10 | Necesito aprender muchas cosas antes de manejarse en el website | 2 | 1 | 3 | 3 | 1 |
 
-### 5.e Aplicación del método Eye Tracking 
+### Usuarios Test B
+| | Preguntas | U2 | U4 | U6 | U8 | U10 |
+| 1 | Creo que me gustará visitar con frecuencia este website | 4 | 4 | 5 | 5 | 4 |
+| 2 | Encontré el website innecesariamente complejo | 2 | 3 | 2 | 1 | 2 |
+| 3 | Pensé que era fácil utilizar este website | 4 | 2 | 4 | 5 | 4 |
+| 4 | Creo que necesitaría del apoyo de un experto para recorrer el website | 2 | 2 | 2 | 1 | 2 |
+| 5 | Encontré las funciones del website bastante bien integradas | 5 | 3 | 4 | 5 | 4 |
+| 6 | Pensé que había demasiada inconsistencia en el website | 2 | 2 | 2 | 1 | 2 |
+| 7 | Imagino que la mayoría de las personas aprenderían muy rápidamente a utilizar el website | 4 | 3 | 5 | 5 | 4 |
+| 8 | Encontré el website muy grande al recorrerlo | 2 | 4 | 3 | 2 | 3 |
+| 9 | Me sentí muy confiado en el manejo del website | 4 | 2 | 4 | 5 | 4 |
+| 10 | Necesito aprender muchas cosas antes de manejarse en el website | 1 | 3 | 2 | 1 | 2 |
 
+### Resultados
+A partir de las respuestas
+| Usuario | Caso | Punutación SUS |
+| U1 | A | 72.5 |
+| U2 | B | 75.0 |
+| U3 | A | 97.5 |
+| U4 | B | 50.0 |
+| U5 | A | 60.0 |
+| U6 | B | 77.5 |
+| U7 | A | 57.5 |
+| U8 | B | 97.5 |
+| U9 | A | 95.0 |
+| U10 | B | 72.5 |
+
+### Promedio por caso:
+
+  * Caso A (La Qarmita): 76,50
+  * Caso B (Errores404): 74,50
+
+Según la escala de referencia del SUS:
+
+  * El Caso A (La Qarmita) obtuvo una media de 76,50, lo que se interpreta como una experiencia buena. La puntuación se mantiene sólida gracias a la facilidad de uso percibida por los perfiles más técnicos, aunque usuarios como U7 bajaron ligeramente el promedio al encontrar ciertas barreras en tareas específicas.
+
+  * El Caso B (Errores404) obtuvo una media de 74,50, que entra en la categoría de buena. Existe una competencia muy directa con el caso A, aunque la complejidad del sistema de filtros y la densidad de información en la agenda siguen penalizando la puntuación en usuarios con menor competencia digital (U4).
+
+### Valoración personal
+
+Aunque los resultados del cuestionario SUS reflejan una valoración más alta para el Caso A (La Qarmita), mi percepción personal es algo más matizada. Es cierto que el Caso A ofrece una experiencia más clara a nivel visual y una navegación inicial más sencilla. Su diseño es limpio, estéticamente cuidado y transmite bien su identidad desde la pantalla de inicio. Esa coherencia visual ha influido positivamente en la valoración de los usuarios, especialmente en los perfiles que buscan una interacción rápida y emocional.
+
+Por otro lado, el Caso B (Errores404) es un prototipo más desarrollado en cuanto a contenido y funcionalidad técnica. Incluye secciones más complejas como la agenda con filtros avanzados y una estructura de comunidades más profunda. Esto introduce una mayor carga cognitiva inicial, lo que explica por qué algunos usuarios otorgan puntuaciones más desiguales. Sin embargo, para un uso recurrente, esta propuesta ofrece herramientas mucho más potentes para el usuario.
+
+En resumen, mientras que el Caso A destaca por su claridad visual y diseño estético, el Caso B presenta una solución más completa y funcional. Ambos prototipos tienen puntos fuertes, y el hecho de que sus promedios estén tan cercanos (76,50 vs 74,50) evidencia que la decisión final dependerá de si se prioriza la sencillez inmediata o la profundidad de herramientas.
+
+## 5.e Aplicación del método Eye Tracking 
+### Caso B 
+![Eye Tracking B1](P5/CasoB1.png)
+
+![Eye Tracking B2](P5/CasoB2.png)
+
+A partir de los mapas de calor (Heatmaps) analizados para el Caso B (Agenda y Landing Page), se han extraído las siguientes conclusiones sobre el comportamiento visual de los usuarios:
+Observaciones principales
+
+  * En la pantalla de Agenda, se observa una mancha de calor muy intensa en la barra de búsqueda y el panel de filtros lateral. Esto indica que los usuarios identifican rápidamente estas herramientas para segmentar el contenido.
+
+  * Las imágenes de los eventos (especialmente la del primer concierto y la cata de café final) y el "Hero" de la landing page atrajeron gran parte de la atención. Los usuarios escanean las imágenes antes que el texto descriptivo.
+
+  * Los botones de "Reservar" muestran una actividad térmica muy baja. Los usuarios miran la información del evento, pero su ojo no se posa de forma natural en la llamada a la acción (CTA).
+
+  * El pie de página con redes sociales e información legal fue completamente ignorado por todos los usuarios.
+
+En un diseño que busca la conversión (reservas o ventas), es crítico que los elementos de interacción sean los protagonistas visuales. Los mapas de calor revelan que, aunque la jerarquía informativa es buena para leer, es deficiente para actuar. Los usuarios procesan qué eventos hay, pero el diseño no los "empuja" visualmente a completar la reserva, ya que los botones marrones se mimetizan demasiado con el resto de la estética cromática del sitio.
+
+Recomendaciones
+
+  * Cambiar el color o aumentar el contraste de los botones "Reservar". Un tono que rompa con la paleta de marrones suaves ayudaría a sacarlos de la "ceguera" visual.
+
+  * Los iconos de la sección "¿Quién encuentra su lugar...?" reciben atención, pero el texto inferior no. Se recomienda simplificar el texto o convertir los iconos en botones más obvios.
+
+  * Simplificar el panel de filtros: Aunque se usa mucho, la mancha de calor es errática. Agrupar los filtros de forma más compacta evitaría que el usuario pierda tiempo escaneando el lateral y se centre en los resultados.
+
+  * Aumentar el tamaño de las fechas en las cards: En la Agenda, los usuarios miran la imagen pero les cuesta fijar la vista en el pequeño recuadro de la fecha (ej. 28 Abr), lo que podría causar confusión en la planificación.
+
+### Caso A
+![Eye Tracking A1](P5/CasoA1.png)
+
+![Eye Tracking A2](P5/CasoA2.png)
+
+A partir del análisis de los mapas de calor para el Caso A , se extraen las siguientes observaciones sobre la jerarquía visual y la interacción en la Landing Page y el Foro:
+
+  * Se observa una concentración de calor muy intensa en el mensaje central "Tu pausa literaria, tu sabor de siempre". Los usuarios procesan la propuesta de valor de inmediato antes de realizar scroll.
+
+  * A diferencia del caso B, aquí las secciones de "La Promo de la Semana" y "Recomendación literaria" reciben una atención muy equitativa. Los usuarios escanean ambas tarjetas, lo que indica que el diseño de dos columnas funciona bien para diversificar el interés.
+
+  * Los botones de "Pide ahora" y "Comprar libro" muestran manchas de calor moderadas. Aunque no son el foco principal, tienen mayor visibilidad relativa que en la propuesta B, posiblemente por estar rodeados de más espacio en blanco.
+
+   * *En la pantalla de comentarios, se observa un patrón de lectura muy marcado en las reseñas centrales (Javier Ruiz y Francisco López). Los usuarios tienden a leer los bloques de texto completos, lo que valida la legibilidad de la tipografía elegida.
+
+El diseño del Caso A logra una dirección de la mirada más natural y fluida. Los usuarios no se sienten abrumados por herramientas complejas (como filtros o buscadores densos), lo que permite que se concentren en el contenido editorial y las promociones. El mapa de calor del foro demuestra que la comunidad es un punto de gran interés, donde el usuario dedica tiempo real a procesar la información subjetiva de otros clientes.
+
+## Observaciones principales
+
+El análisis de los mapas de calor muestra que la interfaz del Caso B, aunque presenta una carga visual más densa y un enfoque profesional, logra captar con éxito la atención del usuario en bloques informativos estratégicos como el buscador de eventos y los filtros laterales. El uso de imágenes de alta calidad y una jerarquía tipográfica moderna funciona correctamente para destacar el contenido de la agenda y las novedades de la cosecha. Sin embargo, resulta crítico observar la escasa atención que reciben los botones de “Reservar” y “Reserva ya”, los cuales, a pesar de ser los elementos clave para la conversión, pasan desapercibidos al mimetizarse con la paleta cromática. Algo similar ocurre con el selector de fecha, que no termina de proyectar la relevancia necesaria para la funcionalidad de la pantalla.
+
+En contraste, el Caso A presenta una propuesta mucho más limpia y directa, centrando la mirada de forma casi inmediata en el eslogan principal y las tarjetas de promoción semanal. Su navegación es más intuitiva para el usuario medio al no presentar distracciones técnicas, aunque ofrece una menor profundidad visual y una interacción más limitada con herramientas avanzadas. En este caso, la lectura del foro demuestra que el diseño favorece la pausa y el consumo de contenido textual de manera fluida, aunque la parte inferior de la pantalla y los datos de contacto son sistemáticamente ignorados.
+
+En conjunto, el Caso B ofrece una experiencia visual más rica, realista y cercana a una aplicación de mercado con una gran variedad de estímulos escaneados por el usuario. No obstante, el Caso A aventaja en claridad y dirección de la mirada, asegurando que los mensajes principales lleguen al usuario sin esfuerzo. Para optimizar la propuesta final, el Caso B necesita mejorar urgentemente la visibilidad de sus elementos de acción para que la alta atención visual que recibe su contenido se traduzca efectivamente en una interacción funcional y una mayor facilidad de uso.
 
 
 
