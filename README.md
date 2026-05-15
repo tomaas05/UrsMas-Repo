@@ -468,6 +468,7 @@ A diferencia de nuestra propuesta (Caso A), el Caso B pone un fuerte énfasis en
 Se reclutarán 10 participantes en total (5 por caso), segmentados según los motivadores del ScopeCanvas:
 
 | Usuarios | Sexo/Edad | Ocupación | Exp.TIC | Personalidad | Plataforma | Caso | Posibles situaciones conflictivas |
+| :--- | :--- | :--- | :--- | :--- | :--- |:--- | :--- |
 | U1 - Julieta | M/20 | Estudiante | Baja | Introvertida | ordenador | A | Puede saltarsse pasos o no fijarse en los detalles. |
 | U2 - Estefania | M/21 | Estudiante | Alta | Extrovertida | ordenador | B | Puede cansarse si ve demasiado texto. |
 | U3 - Alejandro | H/20 | Estudiante | Alta | Racional | ordenador | A | Puede rechazar el sistema si los pasos no siguen un orden lógico. |
@@ -544,6 +545,7 @@ Prueba de exploración libre (20 segundos) seguida de tareas dirigidas. Mediremo
 ### Preguntas
 
 | | Preguntas | U1 | U2 | U3 | U4 | U5 | U6 | U7 | U8 | U9 | U10 |
+|:--- | :--- |:--- | :--- |:--- | :--- |:--- | :--- |:--- | :--- |:--- | :--- |
 | 1 | ¿Cómo calificarías tu experiencia general usando esta app? | 6 | 5 | 5 | 5 | 4 | 4 | 3 | 6 | 5 | 5 |
 | 2 | ¿Encontraste lo que buscabas fácilmente? | 5 | 5 | 4 | 4 | 3 | 5 | 2 | 5 | 4 | 4 |
 | 3 | ¿Recomendarías esta app a otras personas? | 5 | 4 | 5 | 3 | 4 | 3 | 3 | 4 | 5 | 4 |
@@ -561,6 +563,7 @@ En resumen, mientras que el Caso A es superior en conexión emocional y simplici
 
 ### Usuarios Test A 
 | | Preguntas | U1 | U3 | U5 | U7 | U9 |
+| :--- | :--- |:--- | :--- |:--- | :--- |:--- |
 | 1 | Creo que me gustará visitar con frecuencia este website | 4 | 5 | 3 | 3 | 4 |
 | 2 | Encontré el website innecesariamente complejo | 2 | 1 | 3 | 3 | 1 |
 | 3 | Pensé que era fácil utilizar este website | 4 | 5 | 3 | 4 | 5 |
@@ -574,6 +577,7 @@ En resumen, mientras que el Caso A es superior en conexión emocional y simplici
 
 ### Usuarios Test B
 | | Preguntas | U2 | U4 | U6 | U8 | U10 |
+| :--- | :--- |:--- | :--- |:--- | :--- |:--- |
 | 1 | Creo que me gustará visitar con frecuencia este website | 4 | 4 | 5 | 5 | 4 |
 | 2 | Encontré el website innecesariamente complejo | 2 | 3 | 2 | 1 | 2 |
 | 3 | Pensé que era fácil utilizar este website | 4 | 2 | 4 | 5 | 4 |
@@ -588,6 +592,7 @@ En resumen, mientras que el Caso A es superior en conexión emocional y simplici
 ### Resultados
 A partir de las respuestas
 | Usuario | Caso | Punutación SUS |
+| :--- | :--- |:--- |
 | U1 | A | 72.5 |
 | U2 | B | 75.0 |
 | U3 | A | 97.5 |
