@@ -468,16 +468,16 @@ A diferencia de nuestra propuesta (Caso A), el Caso B pone un fuerte énfasis en
 Se reclutarán 10 participantes en total (5 por caso), segmentados según los motivadores del ScopeCanvas:
 
 | Usuarios | Sexo/Edad | Ocupación | Exp.TIC | Personalidad | Plataforma | Caso | Posibles situaciones conflictivas |
-| U1 - Julieta | M/20 | Estudiante | Baja | Introvertida | ordenador | A | Puede saltarsse pasos o no fijarse en los detalles |
-| U2 - Estefania | M/21 | Estudiante | Alta | Extrovertida | ordenador | B | Puede cansarse si ve demasiado texto |
-| U3 - Alejandro | H/20 | Estudiante | Alta | Racional | ordenador | A | Puede rechazar el sistema si los pasos no siguen un orden lógico |
-| U4 - Juan Atonio | H/71 | Jubilado | Baja | Racional | ordenador | B | Puede perderse si la interfaz está muy sobrecargada |
-| U5 - Yolanda| M/61 | Psicóloga | Baja | Extrovertida | ordenador | A | Puede distraerse en interfaces demasiado complejas |
-| U6 - Paula| M/21 | Estudiante | Baja | Extrovertida | ordenador | B | Puede abandonar la página web si el proceso es monótono |
-| U7 - Jose Antonio | H/20 | Estudiante | Baja | Introvertida | ordenador | A | Puede confundirse si no hay indicaciones claras |
-| U8 - Jose Luis| H/21 | Estudiante | Alta | Racional | ordenador | B | Puede frustrarse si el sistema es lento o ineficiente |
-| U9 - Lucas| H/21 | Estudiante | Alta | Extrovertida | ordenador | A | Se impacienta si el flujo es largo o poco claro |
-| U10 - Ruth | M/23 | Estudiante | Alta | Extrovertida | ordenador | B | Puede abandonar la web si no le resulta atrayente |
+| U1 - Julieta | M/20 | Estudiante | Baja | Introvertida | ordenador | A | Puede saltarsse pasos o no fijarse en los detalles. |
+| U2 - Estefania | M/21 | Estudiante | Alta | Extrovertida | ordenador | B | Puede cansarse si ve demasiado texto. |
+| U3 - Alejandro | H/20 | Estudiante | Alta | Racional | ordenador | A | Puede rechazar el sistema si los pasos no siguen un orden lógico. |
+| U4 - Juan Atonio | H/71 | Jubilado | Baja | Racional | ordenador | B | Puede perderse si la interfaz está muy sobrecargada. |
+| U5 - Yolanda | M/61 | Psicóloga | Baja | Extrovertida | ordenador | A | Puede distraerse en interfaces demasiado complejas. |
+| U6 - Paula | M/21 | Estudiante | Baja | Extrovertida | ordenador | B | Puede abandonar la página web si el proceso es monótono. |
+| U7 - Jose Antonio | H/20 | Estudiante | Baja | Introvertida | ordenador | A | Puede confundirse si no hay indicaciones claras. |
+| U8 - Jose Luis| H/21 | Estudiante | Alta | Racional | ordenador | B | Puede frustrarse si el sistema es lento o ineficiente. |
+| U9 - Lucas | H/21 | Estudiante | Alta | Extrovertida | ordenador | A | Se impacienta si el flujo es largo o poco claro. |
+| U10 - Ruth | M/23 | Estudiante | Alta | Extrovertida | ordenador | B | Puede abandonar la web si no le resulta atrayente. |
 
 
 
@@ -599,7 +599,7 @@ A partir de las respuestas
 | U9 | A | 95.0 |
 | U10 | B | 72.5 |
 
-### Promedio por caso:
+**Promedio por caso:**
 
   * Caso A (La Qarmita): 76,50
   * Caso B (Errores404): 74,50
@@ -610,7 +610,7 @@ Según la escala de referencia del SUS:
 
   * El Caso B (Errores404) obtuvo una media de 74,50, que entra en la categoría de buena. Existe una competencia muy directa con el caso A, aunque la complejidad del sistema de filtros y la densidad de información en la agenda siguen penalizando la puntuación en usuarios con menor competencia digital (U4).
 
-### Valoración personal
+**Valoración personal**
 
 Aunque los resultados del cuestionario SUS reflejan una valoración más alta para el Caso A (La Qarmita), mi percepción personal es algo más matizada. Es cierto que el Caso A ofrece una experiencia más clara a nivel visual y una navegación inicial más sencilla. Su diseño es limpio, estéticamente cuidado y transmite bien su identidad desde la pantalla de inicio. Esa coherencia visual ha influido positivamente en la valoración de los usuarios, especialmente en los perfiles que buscan una interacción rápida y emocional.
 
@@ -664,7 +664,7 @@ A partir del análisis de los mapas de calor para el Caso A , se extraen las sig
 
 El diseño del Caso A logra una dirección de la mirada más natural y fluida. Los usuarios no se sienten abrumados por herramientas complejas (como filtros o buscadores densos), lo que permite que se concentren en el contenido editorial y las promociones. El mapa de calor del foro demuestra que la comunidad es un punto de gran interés, donde el usuario dedica tiempo real a procesar la información subjetiva de otros clientes.
 
-## Observaciones principales
+**Observaciones principales**
 
 El análisis de los mapas de calor muestra que la interfaz del Caso B, aunque presenta una carga visual más densa y un enfoque profesional, logra captar con éxito la atención del usuario en bloques informativos estratégicos como el buscador de eventos y los filtros laterales. El uso de imágenes de alta calidad y una jerarquía tipográfica moderna funciona correctamente para destacar el contenido de la agenda y las novedades de la cosecha. Sin embargo, resulta crítico observar la escasa atención que reciben los botones de “Reservar” y “Reserva ya”, los cuales, a pesar de ser los elementos clave para la conversión, pasan desapercibidos al mimetizarse con la paleta cromática. Algo similar ocurre con el selector de fecha, que no termina de proyectar la relevancia necesaria para la funcionalidad de la pantalla.
 
